@@ -1,0 +1,4141 @@
+{
+  "guiyang": [
+    {
+      "name": "黔灵山公园",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 3,
+      "ticket": 5,
+      "desc": "城中心的国家森林公园，上千只野生猕猴与弘福寺同山",
+      "best": "清晨",
+      "heat": 84,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "亲子",
+        "爬山",
+        "猕猴"
+      ]
+    },
+    {
+      "name": "甲秀楼",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "南明河上的明代三层阁楼，夜景灯光是贵阳名片",
+      "best": "19:30 后",
+      "heat": 80,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "地标",
+        "免费"
+      ]
+    },
+    {
+      "name": "青岩古镇",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 4,
+      "ticket": 10,
+      "desc": "明代军事屯堡演变的高原古镇，青石板与卤猪脚",
+      "best": "上午",
+      "heat": 86,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "古镇",
+        "美食",
+        "摄影"
+      ]
+    },
+    {
+      "name": "花溪公园",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "十里河滩与真山真水，贵阳人周末的后花园",
+      "best": "午后",
+      "heat": 66,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "散步",
+        "河景"
+      ]
+    },
+    {
+      "name": "天河潭",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 3.5,
+      "ticket": 40,
+      "desc": "水洞旱洞加瀑布的喀斯特组合，一次看全贵州地貌",
+      "best": "全天",
+      "heat": 70,
+      "crowd": 48,
+      "indoor": true,
+      "tags": [
+        "溶洞",
+        "瀑布",
+        "避暑"
+      ]
+    },
+    {
+      "name": "贵州省博物馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "民族服饰与古生物化石双主线，雨天首选",
+      "best": "雨天",
+      "heat": 58,
+      "crowd": 35,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "亲子"
+      ]
+    },
+    {
+      "name": "青云市集",
+      "type": "美食",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "老厂区改造的夜市集合，贵州小吃一站吃遍",
+      "best": "18:00 后",
+      "heat": 74,
+      "crowd": 65,
+      "indoor": false,
+      "tags": [
+        "夜市",
+        "小吃",
+        "烟火气"
+      ]
+    },
+    {
+      "name": "高坡云顶草原",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "海拔 1700 米的高山台地，日落与风车同框",
+      "best": "日落",
+      "heat": 52,
+      "crowd": 20,
+      "indoor": false,
+      "tags": [
+        "小众",
+        "日落",
+        "自驾"
+      ]
+    }
+  ],
+  "zunyi": [
+    {
+      "name": "遵义会议会址",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "改变中国走向的那场会议，就在这栋灰砖小楼里",
+      "best": "上午",
+      "heat": 82,
+      "crowd": 58,
+      "indoor": true,
+      "tags": [
+        "红色旅游",
+        "免费",
+        "研学"
+      ]
+    },
+    {
+      "name": "赤水丹霞·佛光岩",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 5,
+      "ticket": 80,
+      "desc": "世界自然遗产核心区，赤壁丹崖挂着一条白练",
+      "best": "上午",
+      "heat": 64,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "徒步",
+        "瀑布"
+      ]
+    },
+    {
+      "name": "茅台镇",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "赤水河谷的酱酒之都，空气里都是曲香",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 50,
+      "indoor": true,
+      "tags": [
+        "酒文化",
+        "工业游",
+        "打卡"
+      ]
+    },
+    {
+      "name": "娄山关",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "黔北第一险隘，云海与雄关并存",
+      "best": "清晨",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "红色旅游",
+        "云海",
+        "自驾"
+      ]
+    },
+    {
+      "name": "四洞沟",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 75,
+      "desc": "四级瀑布串在一条溪上，竹林遮天蔽日",
+      "best": "全天",
+      "heat": 56,
+      "crowd": 32,
+      "indoor": false,
+      "tags": [
+        "瀑布",
+        "竹林",
+        "避暑"
+      ]
+    },
+    {
+      "name": "海龙屯",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 60,
+      "desc": "悬崖上的土司城堡遗址，世界文化遗产",
+      "best": "上午",
+      "heat": 50,
+      "crowd": 22,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "遗址",
+        "徒步"
+      ]
+    },
+    {
+      "name": "赤水竹海",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 3,
+      "ticket": 60,
+      "desc": "十七万亩竹林，风过时整座山都在响",
+      "best": "午后",
+      "heat": 46,
+      "crowd": 25,
+      "indoor": false,
+      "tags": [
+        "自然",
+        "避暑",
+        "摄影"
+      ]
+    },
+    {
+      "name": "老城步行街",
+      "type": "美食",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "羊肉粉与豆花面的主战场，越夜越热闹",
+      "best": "18:00 后",
+      "heat": 50,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "夜游",
+        "市井"
+      ]
+    }
+  ],
+  "qiandongnan": [
+    {
+      "name": "西江千户苗寨",
+      "type": "古镇",
+      "rating": 4.6,
+      "hours": 6,
+      "ticket": 90,
+      "desc": "上千座吊脚楼铺满两面山坡，入夜灯火如星河",
+      "best": "傍晚",
+      "heat": 92,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "苗寨",
+        "夜景",
+        "旅拍"
+      ]
+    },
+    {
+      "name": "镇远古镇",
+      "type": "古镇",
+      "rating": 4.6,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "舞阳河以 S 形穿城，太极古镇的灯笼全挂在河上",
+      "best": "入夜",
+      "heat": 74,
+      "crowd": 52,
+      "indoor": false,
+      "tags": [
+        "古镇",
+        "夜景",
+        "免费"
+      ]
+    },
+    {
+      "name": "肇兴侗寨",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 5,
+      "ticket": 80,
+      "desc": "五座鼓楼五座花桥，侗族大歌在这里世代传唱",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "侗寨",
+        "人文",
+        "世界非遗"
+      ]
+    },
+    {
+      "name": "郎德上寨",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 30,
+      "desc": "更安静的苗寨，十二道拦门酒是迎客规矩",
+      "best": "上午",
+      "heat": 54,
+      "crowd": 25,
+      "indoor": false,
+      "tags": [
+        "苗族",
+        "小众",
+        "民俗"
+      ]
+    },
+    {
+      "name": "加榜梯田",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "月亮山腹地的千层梯田，五月灌水时最像镜面",
+      "best": "日出",
+      "heat": 52,
+      "crowd": 18,
+      "indoor": false,
+      "tags": [
+        "梯田",
+        "摄影",
+        "自驾"
+      ]
+    },
+    {
+      "name": "下司古镇",
+      "type": "古镇",
+      "rating": 4.2,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "清水江边的商埠古镇，酸汤鱼发源地之一",
+      "best": "午后",
+      "heat": 48,
+      "crowd": 28,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "美食",
+        "河景"
+      ]
+    },
+    {
+      "name": "云台山",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 4,
+      "ticket": 55,
+      "desc": "施秉的喀斯特峰丛，云雾起时像水墨",
+      "best": "清晨",
+      "heat": 45,
+      "crowd": 20,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "云海",
+        "徒步"
+      ]
+    },
+    {
+      "name": "凯里民族博物馆",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "苗侗服饰与银饰的集中展示，雨天备选",
+      "best": "雨天",
+      "heat": 42,
+      "crowd": 22,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "民俗"
+      ]
+    }
+  ],
+  "anshun": [
+    {
+      "name": "黄果树瀑布",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 5,
+      "ticket": 160,
+      "desc": "亚洲第一大瀑布，水帘洞可以从瀑布内部穿过去",
+      "best": "上午",
+      "heat": 94,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "5A",
+        "瀑布",
+        "必去"
+      ]
+    },
+    {
+      "name": "龙宫",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 130,
+      "desc": "水溶洞坐船进入，洞内瀑布全国罕见",
+      "best": "全天",
+      "heat": 68,
+      "crowd": 45,
+      "indoor": true,
+      "tags": [
+        "溶洞",
+        "游船",
+        "避暑"
+      ]
+    },
+    {
+      "name": "天龙屯堡",
+      "type": "古镇",
+      "rating": 4.4,
+      "hours": 2.5,
+      "ticket": 60,
+      "desc": "六百年前的明代屯军后裔，还穿着凤阳汉装",
+      "best": "上午",
+      "heat": 56,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "人文",
+        "地戏",
+        "石头村"
+      ]
+    },
+    {
+      "name": "格凸河",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 4,
+      "ticket": 75,
+      "desc": "穿洞、盲谷与蜘蛛人攀岩，喀斯特的极限形态",
+      "best": "上午",
+      "heat": 50,
+      "crowd": 22,
+      "indoor": false,
+      "tags": [
+        "户外",
+        "攀岩",
+        "小众"
+      ]
+    },
+    {
+      "name": "坝陵河大桥",
+      "type": "体验",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "世界高桥之一，桥下滴水滩瀑布直落深谷",
+      "best": "午后",
+      "heat": 48,
+      "crowd": 20,
+      "indoor": false,
+      "tags": [
+        "桥梁",
+        "免费",
+        "观景"
+      ]
+    },
+    {
+      "name": "旧州古镇",
+      "type": "古镇",
+      "rating": 4.1,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "屯堡文化发源地之一，鸡辣子是必带手信",
+      "best": "午后",
+      "heat": 42,
+      "crowd": 18,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "小众",
+        "美食"
+      ]
+    },
+    {
+      "name": "虹山湖公园",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "市区里的湖，傍晚跑步遛娃的本地场",
+      "best": "傍晚",
+      "heat": 40,
+      "crowd": 25,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "城市",
+        "散步"
+      ]
+    },
+    {
+      "name": "关岭化石群",
+      "type": "人文",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 60,
+      "desc": "两亿年前的海生爬行动物化石原地保存",
+      "best": "雨天",
+      "heat": 36,
+      "crowd": 12,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "地质",
+        "研学"
+      ]
+    }
+  ],
+  "chengdu": [
+    {
+      "name": "大熊猫繁育研究基地",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 55,
+      "desc": "早上八点的滚滚最活跃，晚了就只剩睡觉",
+      "best": "08:00-10:00",
+      "heat": 96,
+      "crowd": 82,
+      "indoor": false,
+      "tags": [
+        "亲子",
+        "熊猫",
+        "必去"
+      ]
+    },
+    {
+      "name": "宽窄巷子",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "清代少城遗留的三条巷子，盖碗茶与掏耳朵",
+      "best": "午后",
+      "heat": 88,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "美食",
+        "免费"
+      ]
+    },
+    {
+      "name": "锦里古街",
+      "type": "美食",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "武侯祠旁的川西老街，红灯笼与三大炮",
+      "best": "入夜",
+      "heat": 85,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "小吃",
+        "网红"
+      ]
+    },
+    {
+      "name": "都江堰",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 4,
+      "ticket": 80,
+      "desc": "两千多年还在灌溉成都平原的水利奇迹",
+      "best": "上午",
+      "heat": 82,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "研学",
+        "必去"
+      ]
+    },
+    {
+      "name": "青城山",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 5,
+      "ticket": 80,
+      "desc": "青城天下幽，前山道观后山徒步",
+      "best": "清晨",
+      "heat": 78,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "道教",
+        "爬山",
+        "避暑"
+      ]
+    },
+    {
+      "name": "武侯祠",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 50,
+      "desc": "三国圣地，红墙竹影是最出片的角落",
+      "best": "上午",
+      "heat": 76,
+      "crowd": 58,
+      "indoor": false,
+      "tags": [
+        "三国",
+        "人文",
+        "摄影"
+      ]
+    },
+    {
+      "name": "春熙路·太古里",
+      "type": "城市",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "成都的时尚中轴，IFS 爬墙熊猫在此",
+      "best": "入夜",
+      "heat": 84,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "购物",
+        "街拍",
+        "美食"
+      ]
+    },
+    {
+      "name": "人民公园鹤鸣茶社",
+      "type": "市井",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "竹椅盖碗茶，成都最便宜的快乐",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "茶馆",
+        "市井",
+        "慢生活"
+      ]
+    }
+  ],
+  "chongqing": [
+    {
+      "name": "洪崖洞",
+      "type": "夜游",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "十一层吊脚楼贴着崖壁亮灯，千与千寻的现实版",
+      "best": "19:30 后",
+      "heat": 94,
+      "crowd": 88,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "必去",
+        "网红"
+      ]
+    },
+    {
+      "name": "解放碑",
+      "type": "城市",
+      "rating": 4.4,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "重庆的精神坐标，四周全是商圈与人潮",
+      "best": "入夜",
+      "heat": 86,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "购物",
+        "免费"
+      ]
+    },
+    {
+      "name": "李子坝轻轨穿楼",
+      "type": "体验",
+      "rating": 4.3,
+      "hours": 0.5,
+      "ticket": 0,
+      "desc": "2 号线从居民楼中间穿过去，观景台已修好",
+      "best": "全天",
+      "heat": 82,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "网红",
+        "免费",
+        "打卡"
+      ]
+    },
+    {
+      "name": "磁器口古镇",
+      "type": "古镇",
+      "rating": 4.3,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "嘉陵江边的千年码头，陈麻花与酸辣粉",
+      "best": "上午",
+      "heat": 82,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "古镇",
+        "小吃",
+        "免费"
+      ]
+    },
+    {
+      "name": "长江索道",
+      "type": "体验",
+      "rating": 4.4,
+      "hours": 0.5,
+      "ticket": 20,
+      "desc": "横渡长江的空中公交，两分钟看完两江四岸",
+      "best": "傍晚",
+      "heat": 78,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "体验",
+        "江景",
+        "打卡"
+      ]
+    },
+    {
+      "name": "武隆天生三桥",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 4,
+      "ticket": 125,
+      "desc": "三座天生石桥夹两坑，满城尽带黄金甲的取景地",
+      "best": "上午",
+      "heat": 76,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "自然",
+        "影视"
+      ]
+    },
+    {
+      "name": "南山一棵树观景台",
+      "type": "夜游",
+      "rating": 4.6,
+      "hours": 1.5,
+      "ticket": 30,
+      "desc": "俯瞰渝中半岛的最佳机位，灯火像倾倒的星盘",
+      "best": "20:00 后",
+      "heat": 74,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "摄影",
+        "观景"
+      ]
+    },
+    {
+      "name": "鹅岭二厂",
+      "type": "文创",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "旧印刷厂改的文创园，天台能看两江交汇",
+      "best": "午后",
+      "heat": 66,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "文创",
+        "免费",
+        "拍照"
+      ]
+    }
+  ],
+  "xian": [
+    {
+      "name": "秦始皇兵马俑",
+      "type": "人文",
+      "rating": 4.9,
+      "hours": 4,
+      "ticket": 120,
+      "desc": "八千个陶俑列阵两千年，每个人脸都不一样",
+      "best": "开馆即入",
+      "heat": 96,
+      "crowd": 85,
+      "indoor": true,
+      "tags": [
+        "世界遗产",
+        "必去",
+        "研学"
+      ]
+    },
+    {
+      "name": "大唐不夜城",
+      "type": "夜游",
+      "rating": 4.6,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "两公里唐风街区，不倒翁与盛唐密盒轮番上演",
+      "best": "19:00 后",
+      "heat": 92,
+      "crowd": 88,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "免费",
+        "演出"
+      ]
+    },
+    {
+      "name": "西安城墙",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 54,
+      "desc": "完整闭合的明代城墙，骑车绕一圈十三公里",
+      "best": "傍晚",
+      "heat": 86,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "骑行",
+        "地标",
+        "日落"
+      ]
+    },
+    {
+      "name": "陕西历史博物馆",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "一馆看尽周秦汉唐，需提前实名预约",
+      "best": "上午",
+      "heat": 88,
+      "crowd": 70,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "必去"
+      ]
+    },
+    {
+      "name": "大雁塔·大慈恩寺",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 40,
+      "desc": "玄奘译经之地，北广场音乐喷泉整点开演",
+      "best": "傍晚",
+      "heat": 82,
+      "crowd": 68,
+      "indoor": false,
+      "tags": [
+        "人文",
+        "喷泉",
+        "地标"
+      ]
+    },
+    {
+      "name": "回民街",
+      "type": "美食",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "肉夹馍、甑糕、柿子饼，碳水一条街",
+      "best": "18:00 后",
+      "heat": 84,
+      "crowd": 82,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "夜市",
+        "烟火气"
+      ]
+    },
+    {
+      "name": "华清宫",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 120,
+      "desc": "骊山脚下的温泉宫，长恨歌实景演出在此",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "历史",
+        "演出",
+        "温泉"
+      ]
+    },
+    {
+      "name": "钟鼓楼",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 50,
+      "desc": "古城正中心的一对明代楼阁，夜景最上镜",
+      "best": "入夜",
+      "heat": 76,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "夜景",
+        "人文"
+      ]
+    }
+  ],
+  "beijing": [
+    {
+      "name": "故宫博物院",
+      "type": "人文",
+      "rating": 4.9,
+      "hours": 4,
+      "ticket": 60,
+      "desc": "六百年紫禁城，中轴线上九千间房",
+      "best": "开馆即入",
+      "heat": 98,
+      "crowd": 88,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "必去",
+        "需预约"
+      ]
+    },
+    {
+      "name": "八达岭长城",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 4,
+      "ticket": 40,
+      "desc": "长城最经典的一段，缆车可直达北八楼",
+      "best": "清晨",
+      "heat": 92,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "必去",
+        "徒步"
+      ]
+    },
+    {
+      "name": "颐和园",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 3.5,
+      "ticket": 30,
+      "desc": "皇家园林的顶配，昆明湖与长廊一步一景",
+      "best": "下午",
+      "heat": 88,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "园林",
+        "湖景",
+        "摄影"
+      ]
+    },
+    {
+      "name": "国家博物馆",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "从远古到近代的通史长卷，需预约",
+      "best": "雨天",
+      "heat": 86,
+      "crowd": 65,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "研学"
+      ]
+    },
+    {
+      "name": "天坛公园",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 15,
+      "desc": "祈年殿的蓝顶与回音壁，明清祭天之所",
+      "best": "清晨",
+      "heat": 80,
+      "crowd": 58,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "人文",
+        "晨练"
+      ]
+    },
+    {
+      "name": "什刹海·后海",
+      "type": "夜游",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "胡同与水面交错，酒吧与摇橹船共存",
+      "best": "入夜",
+      "heat": 76,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "夜游",
+        "胡同",
+        "免费"
+      ]
+    },
+    {
+      "name": "南锣鼓巷",
+      "type": "美食",
+      "rating": 4.1,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "元大都留下的鱼骨状胡同，如今是小吃与文创",
+      "best": "午后",
+      "heat": 74,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "胡同",
+        "小吃",
+        "文创"
+      ]
+    },
+    {
+      "name": "北京环球影城",
+      "type": "主题",
+      "rating": 4.6,
+      "hours": 8,
+      "ticket": 418,
+      "desc": "哈利波特与变形金刚，建议工作日前来",
+      "best": "全天",
+      "heat": 90,
+      "crowd": 76,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "亲子",
+        "全天"
+      ]
+    }
+  ],
+  "shanghai": [
+    {
+      "name": "外滩",
+      "type": "城市",
+      "rating": 4.8,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "万国建筑群对望陆家嘴，夜景是上海的标准答案",
+      "best": "19:00 后",
+      "heat": 94,
+      "crowd": 85,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "地标",
+        "免费"
+      ]
+    },
+    {
+      "name": "上海迪士尼乐园",
+      "type": "主题",
+      "rating": 4.7,
+      "hours": 9,
+      "ticket": 475,
+      "desc": "国内唯一的迪士尼，早鸟入园能多刷三个项目",
+      "best": "全天",
+      "heat": 92,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "亲子",
+        "全天"
+      ]
+    },
+    {
+      "name": "豫园·城隍庙",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2.5,
+      "ticket": 40,
+      "desc": "明代园林紧挨老城厢，南翔小笼排长队",
+      "best": "上午",
+      "heat": 84,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "园林",
+        "小吃",
+        "老城"
+      ]
+    },
+    {
+      "name": "武康路·安福路",
+      "type": "城市",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "梧桐区 citywalk 主线，武康大楼是必拍机位",
+      "best": "午后",
+      "heat": 80,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "citywalk",
+        "咖啡",
+        "拍照"
+      ]
+    },
+    {
+      "name": "上海博物馆",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "青铜与陶瓷的顶级收藏，人民广场馆需预约",
+      "best": "雨天",
+      "heat": 80,
+      "crowd": 50,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "研学"
+      ]
+    },
+    {
+      "name": "陆家嘴三件套",
+      "type": "城市",
+      "rating": 4.6,
+      "hours": 1.5,
+      "ticket": 180,
+      "desc": "上海中心 118 层观光厅，云上看整座城",
+      "best": "日落",
+      "heat": 82,
+      "crowd": 58,
+      "indoor": true,
+      "tags": [
+        "观景",
+        "日落",
+        "地标"
+      ]
+    },
+    {
+      "name": "田子坊",
+      "type": "文创",
+      "rating": 4.1,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "石库门里的弄堂小店，适合慢慢逛",
+      "best": "午后",
+      "heat": 64,
+      "crowd": 52,
+      "indoor": false,
+      "tags": [
+        "文创",
+        "石库门",
+        "免费"
+      ]
+    },
+    {
+      "name": "朱家角古镇",
+      "type": "古镇",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "上海近郊的水乡，放生桥上看船来船往",
+      "best": "上午",
+      "heat": 62,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "水乡",
+        "免费",
+        "近郊"
+      ]
+    }
+  ],
+  "hangzhou": [
+    {
+      "name": "西湖",
+      "type": "自然",
+      "rating": 4.9,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "苏堤白堤断桥，绕湖一圈看不腻的中国美学",
+      "best": "清晨",
+      "heat": 96,
+      "crowd": 82,
+      "indoor": false,
+      "tags": [
+        "5A",
+        "免费",
+        "必去"
+      ]
+    },
+    {
+      "name": "灵隐寺·飞来峰",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 75,
+      "desc": "千年古刹藏在山林，飞来峰石刻造像五百余尊",
+      "best": "上午",
+      "heat": 86,
+      "crowd": 65,
+      "indoor": false,
+      "tags": [
+        "寺庙",
+        "石刻",
+        "祈福"
+      ]
+    },
+    {
+      "name": "西溪湿地",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3.5,
+      "ticket": 80,
+      "desc": "城市里的次生湿地，摇橹船穿过芦苇荡",
+      "best": "午后",
+      "heat": 74,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "湿地",
+        "游船",
+        "亲子"
+      ]
+    },
+    {
+      "name": "河坊街·南宋御街",
+      "type": "美食",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "南宋御道旧址，胡庆余堂与定胜糕同街",
+      "best": "入夜",
+      "heat": 76,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "老街",
+        "免费"
+      ]
+    },
+    {
+      "name": "龙井村茶园",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "狮峰山下的茶田，春天满山采茶人",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "茶文化",
+        "免费",
+        "山景"
+      ]
+    },
+    {
+      "name": "千岛湖",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 6,
+      "ticket": 130,
+      "desc": "一千多个岛屿浮在水面，适合两天一夜",
+      "best": "全天",
+      "heat": 68,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "湖泊",
+        "游船",
+        "近郊"
+      ]
+    },
+    {
+      "name": "京杭大运河·拱宸桥",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "运河最南端的石拱桥，夜里灯影落在水上",
+      "best": "入夜",
+      "heat": 64,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "免费",
+        "人文"
+      ]
+    },
+    {
+      "name": "浙江省博物馆",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "之江馆区的良渚玉琮与富春山居图",
+      "best": "雨天",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "研学"
+      ]
+    }
+  ],
+  "xiamen": [
+    {
+      "name": "鼓浪屿",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 5,
+      "ticket": 35,
+      "desc": "万国建筑与钢琴博物馆，全岛步行无车",
+      "best": "上午",
+      "heat": 93,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "海岛",
+        "世界遗产",
+        "必去"
+      ]
+    },
+    {
+      "name": "环岛路",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "沿海骑行道，一边是海一边是山",
+      "best": "傍晚",
+      "heat": 78,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "骑行",
+        "海景",
+        "免费"
+      ]
+    },
+    {
+      "name": "厦门大学·芙蓉隧道",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "中国最美校园之一，隧道涂鸦是学生的心事",
+      "best": "上午",
+      "heat": 78,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "校园",
+        "需预约",
+        "拍照"
+      ]
+    },
+    {
+      "name": "曾厝垵",
+      "type": "美食",
+      "rating": 4.1,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "渔村变成的小吃村，沙茶面与海蛎煎",
+      "best": "18:00 后",
+      "heat": 74,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "夜市",
+        "民宿"
+      ]
+    },
+    {
+      "name": "南普陀寺",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "背靠五老峰的千年古刹，素饼值得带",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "寺庙",
+        "免费",
+        "祈福"
+      ]
+    },
+    {
+      "name": "沙坡尾",
+      "type": "文创",
+      "rating": 4.4,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "避风坞边的老厦门，咖啡馆与旧渔船共存",
+      "best": "午后",
+      "heat": 68,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "文创",
+        "咖啡",
+        "拍照"
+      ]
+    },
+    {
+      "name": "厦门植物园",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 30,
+      "desc": "雨林喷雾与多肉世界，出片率极高",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "植物",
+        "拍照",
+        "亲子"
+      ]
+    },
+    {
+      "name": "集美学村",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "嘉庚建筑的红砖白石，龙舟池倒映整片南洋",
+      "best": "午后",
+      "heat": 58,
+      "crowd": 28,
+      "indoor": false,
+      "tags": [
+        "人文",
+        "免费",
+        "建筑"
+      ]
+    }
+  ],
+  "guilin": [
+    {
+      "name": "漓江竹筏·兴坪",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 4,
+      "ticket": 215,
+      "desc": "二十元人民币背面的那片山水，就在兴坪",
+      "best": "上午",
+      "heat": 94,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "5A",
+        "竹筏",
+        "必去"
+      ]
+    },
+    {
+      "name": "遇龙河漂流",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 2.5,
+      "ticket": 240,
+      "desc": "人工竹筏过十道堰坝，落水那一下最痛快",
+      "best": "上午",
+      "heat": 88,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "竹筏",
+        "田园",
+        "摄影"
+      ]
+    },
+    {
+      "name": "阳朔西街",
+      "type": "夜游",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "中西混搭的老街，夜里全是啤酒鱼与民谣",
+      "best": "20:00 后",
+      "heat": 86,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "夜游",
+        "美食",
+        "免费"
+      ]
+    },
+    {
+      "name": "象鼻山",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 1.5,
+      "ticket": 55,
+      "desc": "桂林城徽，水月洞的倒影就是那只象",
+      "best": "清晨",
+      "heat": 82,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "打卡",
+        "江景"
+      ]
+    },
+    {
+      "name": "龙脊梯田",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 5,
+      "ticket": 80,
+      "desc": "金坑大寨的千层梯田，五月灌水十月金黄",
+      "best": "日出",
+      "heat": 78,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "梯田",
+        "日出",
+        "徒步"
+      ]
+    },
+    {
+      "name": "十里画廊",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "阳朔到月亮山的骑行线，一路都是峰林",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "骑行",
+        "免费",
+        "峰林"
+      ]
+    },
+    {
+      "name": "两江四湖",
+      "type": "夜游",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 200,
+      "desc": "夜游船穿城而过，日月双塔亮在水中央",
+      "best": "20:00 后",
+      "heat": 76,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "夜游",
+        "游船",
+        "灯光"
+      ]
+    },
+    {
+      "name": "银子岩",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 65,
+      "desc": "贯穿十二座山峰的溶洞，钟乳如银似钻",
+      "best": "全天",
+      "heat": 60,
+      "crowd": 35,
+      "indoor": true,
+      "tags": [
+        "溶洞",
+        "室内",
+        "避暑"
+      ]
+    }
+  ],
+  "lijiang": [
+    {
+      "name": "丽江古城",
+      "type": "古镇",
+      "rating": 4.6,
+      "hours": 4,
+      "ticket": 50,
+      "desc": "四方街的溪水从雪山来，清晨无人时最美",
+      "best": "清晨",
+      "heat": 92,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "古城",
+        "必去"
+      ]
+    },
+    {
+      "name": "玉龙雪山",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 6,
+      "ticket": 100,
+      "desc": "海拔 4680 米的冰川公园，索道需提前抢票",
+      "best": "清晨",
+      "heat": 90,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "雪山",
+        "索道",
+        "高反注意"
+      ]
+    },
+    {
+      "name": "蓝月谷",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "雪山下的牛奶蓝湖水，四个湖连成一串",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "湖泊",
+        "拍照",
+        "雪山"
+      ]
+    },
+    {
+      "name": "束河古镇",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "比大研更安静的茶马古道小镇",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "古镇",
+        "免费",
+        "慢生活"
+      ]
+    },
+    {
+      "name": "白沙古镇",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "抬头就是玉龙雪山，纳西刺绣与咖啡同街",
+      "best": "午后",
+      "heat": 60,
+      "crowd": 22,
+      "indoor": false,
+      "tags": [
+        "小众",
+        "古镇",
+        "免费"
+      ]
+    },
+    {
+      "name": "泸沽湖",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 48,
+      "ticket": 70,
+      "desc": "摩梭人的母系家园，环湖一圈需要两天",
+      "best": "全天",
+      "heat": 78,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "湖泊",
+        "两天",
+        "自驾"
+      ]
+    },
+    {
+      "name": "拉市海",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "湿地候鸟与茶马古道骑马，注意选正规马场",
+      "best": "上午",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "湿地",
+        "骑马",
+        "候鸟"
+      ]
+    },
+    {
+      "name": "木府",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 60,
+      "desc": "纳西土司的府邸，半部丽江史",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "人文",
+        "建筑",
+        "历史"
+      ]
+    }
+  ],
+  "dali": [
+    {
+      "name": "洱海环湖",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 6,
+      "ticket": 0,
+      "desc": "一百三十公里的环湖线，海西看田海东看山",
+      "best": "全天",
+      "heat": 93,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "环湖",
+        "自驾",
+        "必去"
+      ]
+    },
+    {
+      "name": "大理古城",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "苍山下的棋盘古城，人民路上全是故事",
+      "best": "入夜",
+      "heat": 88,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "古城",
+        "免费",
+        "夜生活"
+      ]
+    },
+    {
+      "name": "崇圣寺三塔",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 75,
+      "desc": "三塔倒影在聚影池，大理的精神地标",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "人文",
+        "拍照"
+      ]
+    },
+    {
+      "name": "喜洲古镇",
+      "type": "古镇",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "白族大院与稻田，喜洲粑粑要趁热吃",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "白族",
+        "田园",
+        "美食"
+      ]
+    },
+    {
+      "name": "双廊古镇",
+      "type": "古镇",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "洱海东岸的渔村，民宿阳台直接对海",
+      "best": "日落",
+      "heat": 72,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "海景",
+        "日落",
+        "民宿"
+      ]
+    },
+    {
+      "name": "苍山",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 4,
+      "ticket": 40,
+      "desc": "洗马潭索道直上四千米，云在脚下走",
+      "best": "清晨",
+      "heat": 68,
+      "crowd": 32,
+      "indoor": false,
+      "tags": [
+        "索道",
+        "爬山",
+        "云海"
+      ]
+    },
+    {
+      "name": "沙溪古镇",
+      "type": "古镇",
+      "rating": 4.6,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "茶马古道上唯一幸存的集市，寺登街很静",
+      "best": "午后",
+      "heat": 58,
+      "crowd": 20,
+      "indoor": false,
+      "tags": [
+        "小众",
+        "古镇",
+        "免费"
+      ]
+    },
+    {
+      "name": "理想邦",
+      "type": "文创",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "洱海边的白色建筑群，被叫作小圣托里尼",
+      "best": "午后",
+      "heat": 64,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "网红",
+        "拍照",
+        "免费"
+      ]
+    }
+  ],
+  "kunming": [
+    {
+      "name": "石林风景区",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 4,
+      "ticket": 130,
+      "desc": "两亿年喀斯特的石柱森林，进景区就能看见阿诗玛石",
+      "best": "上午",
+      "heat": 84,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "5A",
+        "喀斯特",
+        "必去"
+      ]
+    },
+    {
+      "name": "滇池·海埂大坝",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "冬天上万只红嘴鸥落在水面，可以近距离投喂",
+      "best": "清晨",
+      "heat": 80,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "红嘴鸥",
+        "免费",
+        "湖景"
+      ]
+    },
+    {
+      "name": "云南民族村",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 90,
+      "desc": "二十五个民族的村寨集中展示，一天看遍云南",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "民族",
+        "演出",
+        "亲子"
+      ]
+    },
+    {
+      "name": "西山龙门",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 4,
+      "ticket": 40,
+      "desc": "悬崖上凿出的龙门石窟，俯瞰整个滇池",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "登山",
+        "索道",
+        "观景"
+      ]
+    },
+    {
+      "name": "翠湖公园",
+      "type": "城市",
+      "rating": 4.4,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "市中心的湖，冬天红嘴鸥会飞到岸边",
+      "best": "午后",
+      "heat": 66,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "城市",
+        "散步"
+      ]
+    },
+    {
+      "name": "官渡古镇",
+      "type": "古镇",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "昆明主城最近的古镇，官渡粑粑要现烤的",
+      "best": "午后",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "小吃",
+        "小众"
+      ]
+    },
+    {
+      "name": "斗南花市",
+      "type": "市井",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "亚洲最大的鲜花交易市场，夜里开拍最热闹",
+      "best": "20:00 后",
+      "heat": 62,
+      "crowd": 35,
+      "indoor": true,
+      "tags": [
+        "鲜花",
+        "夜市",
+        "本地"
+      ]
+    },
+    {
+      "name": "云南省博物馆",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "古滇国青铜器与南诏大理国佛教艺术，雨天首选",
+      "best": "雨天",
+      "heat": 56,
+      "crowd": 26,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "研学"
+      ]
+    }
+  ],
+  "qingdao": [
+    {
+      "name": "栈桥",
+      "type": "城市",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "伸进海里的百年长堤，回澜阁是青岛的名片",
+      "best": "清晨",
+      "heat": 86,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "免费",
+        "海景"
+      ]
+    },
+    {
+      "name": "八大关",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "两百多栋各国风格别墅藏在梧桐里，秋天最美",
+      "best": "午后",
+      "heat": 84,
+      "crowd": 58,
+      "indoor": false,
+      "tags": [
+        "建筑",
+        "免费",
+        "拍照"
+      ]
+    },
+    {
+      "name": "崂山",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 5,
+      "ticket": 120,
+      "desc": "海上第一名山，仰口看日出、太清宫听道乐",
+      "best": "清晨",
+      "heat": 80,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "道教",
+        "爬山",
+        "海景"
+      ]
+    },
+    {
+      "name": "青岛啤酒博物馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 60,
+      "desc": "百年啤酒厂原址，门票含两杯原浆",
+      "best": "雨天",
+      "heat": 76,
+      "crowd": 52,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "啤酒",
+        "工厂游"
+      ]
+    },
+    {
+      "name": "金沙滩",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "沙质最细的一片海滩，夏天人多但值得",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "沙滩",
+        "免费",
+        "亲子"
+      ]
+    },
+    {
+      "name": "小鱼山公园",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 15,
+      "desc": "俯瞰红瓦绿树的最佳机位，十分钟就能登顶",
+      "best": "日落",
+      "heat": 70,
+      "crowd": 32,
+      "indoor": false,
+      "tags": [
+        "观景",
+        "拍照",
+        "小众"
+      ]
+    },
+    {
+      "name": "劈柴院",
+      "type": "美食",
+      "rating": 4,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "老青岛的小吃胡同，海鲜和烤鱿鱼一条街",
+      "best": "18:00 后",
+      "heat": 68,
+      "crowd": 65,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "夜市",
+        "老城"
+      ]
+    },
+    {
+      "name": "五四广场·奥帆中心",
+      "type": "城市",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "五月的风雕塑与帆船码头，夜里灯光秀",
+      "best": "入夜",
+      "heat": 74,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "免费",
+        "地标"
+      ]
+    }
+  ],
+  "changsha": [
+    {
+      "name": "橘子洲",
+      "type": "城市",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "湘江中的长岛，青年毛泽东雕像在最北端",
+      "best": "傍晚",
+      "heat": 88,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "地标",
+        "江景"
+      ]
+    },
+    {
+      "name": "岳麓山·爱晚亭",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 3.5,
+      "ticket": 0,
+      "desc": "霜叶红于二月花说的就是这里，秋天满山红叶",
+      "best": "清晨",
+      "heat": 86,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "爬山",
+        "秋景"
+      ]
+    },
+    {
+      "name": "湖南博物院",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "马王堆汉墓陈列，辛追夫人与素纱襌衣在此",
+      "best": "雨天",
+      "heat": 84,
+      "crowd": 65,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "必去"
+      ]
+    },
+    {
+      "name": "太平老街",
+      "type": "美食",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "贾谊故居旁的小吃街，臭豆腐排长队",
+      "best": "19:00 后",
+      "heat": 80,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "夜市",
+        "烟火气"
+      ]
+    },
+    {
+      "name": "岳麓书院",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 40,
+      "desc": "千年学府仍在办学，惟楚有材的匾额还挂着",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "书院",
+        "人文",
+        "研学"
+      ]
+    },
+    {
+      "name": "谢子龙影像艺术馆",
+      "type": "文创",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "清水混凝土建筑，长沙最出片的免费展馆",
+      "best": "午后",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": true,
+      "tags": [
+        "免费",
+        "室内",
+        "拍照"
+      ]
+    },
+    {
+      "name": "文和友老长沙",
+      "type": "美食",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "复刻八十年代长沙街巷，吃饭像逛展",
+      "best": "17:00 后",
+      "heat": 78,
+      "crowd": 80,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "小龙虾",
+        "网红"
+      ]
+    },
+    {
+      "name": "长沙世界之窗",
+      "type": "主题",
+      "rating": 4.1,
+      "hours": 6,
+      "ticket": 200,
+      "desc": "欢乐谷式乐园，适合带孩子的家庭",
+      "best": "全天",
+      "heat": 64,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "亲子",
+        "全天"
+      ]
+    }
+  ],
+  "nanjing": [
+    {
+      "name": "中山陵",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "三百九十二级台阶直上，梧桐夹道气势惊人",
+      "best": "清晨",
+      "heat": 88,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "必去",
+        "建筑"
+      ]
+    },
+    {
+      "name": "夫子庙·秦淮河",
+      "type": "夜游",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "桨声灯影里的秦淮河，贡院与乌衣巷都在附近",
+      "best": "19:00 后",
+      "heat": 86,
+      "crowd": 82,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "游船",
+        "小吃"
+      ]
+    },
+    {
+      "name": "南京博物院",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "民国馆直接把一条老街搬进馆里，需预约",
+      "best": "雨天",
+      "heat": 84,
+      "crowd": 68,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "必去"
+      ]
+    },
+    {
+      "name": "总统府",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 35,
+      "desc": "六百年官署、太平天国天王府与民国政府旧址",
+      "best": "上午",
+      "heat": 78,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "历史",
+        "建筑",
+        "人文"
+      ]
+    },
+    {
+      "name": "明孝陵",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2.5,
+      "ticket": 70,
+      "desc": "朱元璋陵寝，石象路秋天是一条金色隧道",
+      "best": "午后",
+      "heat": 76,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "秋景",
+        "徒步"
+      ]
+    },
+    {
+      "name": "老门东",
+      "type": "美食",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "修复的老城南街区，蒋有记锅贴和梅花糕",
+      "best": "18:00 后",
+      "heat": 74,
+      "crowd": 68,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "老街",
+        "免费"
+      ]
+    },
+    {
+      "name": "玄武湖",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 2.5,
+      "ticket": 0,
+      "desc": "城墙下的城中湖，环湖五洲可以走一整天",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "湖景",
+        "散步"
+      ]
+    },
+    {
+      "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+      "type": "人文",
+      "rating": 4.9,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "必须去一次的地方，场馆内请保持安静",
+      "best": "上午",
+      "heat": 72,
+      "crowd": 50,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "历史"
+      ]
+    }
+  ],
+  "suzhou": [
+    {
+      "name": "拙政园",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2.5,
+      "ticket": 80,
+      "desc": "江南园林之首，借景北寺塔的手法教科书级别",
+      "best": "清晨",
+      "heat": 88,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "园林",
+        "必去"
+      ]
+    },
+    {
+      "name": "平江路",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "一条河一条街的宋时格局，评弹声从茶馆飘出",
+      "best": "午后",
+      "heat": 84,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "水巷",
+        "评弹"
+      ]
+    },
+    {
+      "name": "苏州博物馆",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "贝聿铭的封笔之作，片石假山与光庭，需预约",
+      "best": "雨天",
+      "heat": 82,
+      "crowd": 66,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "建筑"
+      ]
+    },
+    {
+      "name": "山塘街",
+      "type": "夜游",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "七里山塘的红灯笼，坐船看两岸最有味道",
+      "best": "19:30 后",
+      "heat": 78,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "游船",
+        "免费"
+      ]
+    },
+    {
+      "name": "虎丘",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 70,
+      "desc": "吴中第一名胜，斜塔比比萨斜塔还早四百年",
+      "best": "上午",
+      "heat": 76,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "古塔",
+        "人文",
+        "登高"
+      ]
+    },
+    {
+      "name": "周庄古镇",
+      "type": "古镇",
+      "rating": 4.4,
+      "hours": 4,
+      "ticket": 100,
+      "desc": "双桥与沈厅，陈逸飞那幅画让这里闻名",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 58,
+      "indoor": false,
+      "tags": [
+        "水乡",
+        "古镇",
+        "近郊"
+      ]
+    },
+    {
+      "name": "留园",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 1.5,
+      "ticket": 55,
+      "desc": "冠云峰是江南园林最大的太湖石",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "园林",
+        "人少"
+      ]
+    },
+    {
+      "name": "金鸡湖·东方之门",
+      "type": "城市",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "工业园区的现代天际线，湖边步道适合夜跑",
+      "best": "入夜",
+      "heat": 66,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "免费",
+        "现代"
+      ]
+    }
+  ],
+  "harbin": [
+    {
+      "name": "冰雪大世界",
+      "type": "主题",
+      "rating": 4.7,
+      "hours": 3,
+      "ticket": 328,
+      "desc": "每年重建的冰城，夜里灯光亮起像另一个星球",
+      "best": "17:00 后",
+      "heat": 92,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "冰雪",
+        "夜游",
+        "必去"
+      ]
+    },
+    {
+      "name": "中央大街",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "面包石铺成的大街，两侧全是百年欧式立面",
+      "best": "入夜",
+      "heat": 88,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "地标",
+        "马迭尔"
+      ]
+    },
+    {
+      "name": "圣索菲亚教堂",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 1,
+      "ticket": 20,
+      "desc": "拜占庭式绿顶洋葱头，广场鸽群一起飞很好看",
+      "best": "上午",
+      "heat": 84,
+      "crowd": 62,
+      "indoor": true,
+      "tags": [
+        "建筑",
+        "地标",
+        "拍照"
+      ]
+    },
+    {
+      "name": "太阳岛",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 3,
+      "ticket": 30,
+      "desc": "松花江中的岛，冬天有雪博会，夏天是绿地",
+      "best": "上午",
+      "heat": 72,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "雪博会",
+        "公园",
+        "亲子"
+      ]
+    },
+    {
+      "name": "松花江·防洪纪念塔",
+      "type": "城市",
+      "rating": 4.3,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "冬天江面结冰可以走人，冰上项目一排",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "江景",
+        "冰雪"
+      ]
+    },
+    {
+      "name": "老道外中华巴洛克",
+      "type": "美食",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "中西合璧的老街区，锅包肉和红肠在这最正",
+      "best": "18:00 后",
+      "heat": 64,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "小吃",
+        "老建筑",
+        "本地"
+      ]
+    },
+    {
+      "name": "东北虎林园",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 90,
+      "desc": "坐车进散养区看东北虎，适合带孩子",
+      "best": "上午",
+      "heat": 62,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "动物",
+        "亲子",
+        "近郊"
+      ]
+    },
+    {
+      "name": "黑龙江省博物馆",
+      "type": "人文",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "俄式老建筑里的地方通史，极寒天备选",
+      "best": "雨天",
+      "heat": 56,
+      "crowd": 24,
+      "indoor": true,
+      "tags": [
+        "室内",
+        "免费",
+        "避寒"
+      ]
+    }
+  ],
+  "guangzhou": [
+    {
+      "name": "广州塔",
+      "type": "城市",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 150,
+      "desc": "小蛮腰上俯瞰珠江两岸，夜晚亮灯最出片",
+      "best": "20:00 后",
+      "heat": 90,
+      "crowd": 75,
+      "indoor": true,
+      "tags": [
+        "地标",
+        "夜景",
+        "登高"
+      ]
+    },
+    {
+      "name": "沙面岛",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "百年西洋建筑的街区，榕树下很出片",
+      "best": "午后",
+      "heat": 84,
+      "crowd": 68,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "洋楼",
+        "摄影"
+      ]
+    },
+    {
+      "name": "陈家祠",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 1.5,
+      "ticket": 10,
+      "desc": "岭南祠堂建筑的集大成者，木雕石雕彩绘",
+      "best": "上午",
+      "heat": 80,
+      "crowd": 52,
+      "indoor": true,
+      "tags": [
+        "岭南",
+        "祠堂",
+        "艺术"
+      ]
+    },
+    {
+      "name": "珠江夜游",
+      "type": "夜游",
+      "rating": 4.4,
+      "hours": 1.5,
+      "ticket": 98,
+      "desc": "乘船看小蛮腰和两岸灯光秀",
+      "best": "19:30 后",
+      "heat": 78,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "夜游",
+        "游船",
+        "灯光"
+      ]
+    },
+    {
+      "name": "白云山",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 5,
+      "desc": "登摩星岭俯瞰全城，晨运和看日落都好",
+      "best": "清晨",
+      "heat": 74,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "爬山",
+        "观景",
+        "免费"
+      ]
+    },
+    {
+      "name": "广州长隆",
+      "type": "主题",
+      "rating": 4.7,
+      "hours": 6,
+      "ticket": 250,
+      "desc": "野生动物世界+欢乐世界，亲子必去",
+      "best": "上午",
+      "heat": 86,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "亲子",
+        "动物"
+      ]
+    },
+    {
+      "name": "永庆坊",
+      "type": "市井",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "西关老城改造的街区，骑楼与文创店",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "西关",
+        "骑楼",
+        "免费"
+      ]
+    },
+    {
+      "name": "越秀公园",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "五羊石像与镇海楼，老广州的根",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "公园",
+        "地标",
+        "免费"
+      ]
+    }
+  ],
+  "shenzhen": [
+    {
+      "name": "深圳湾公园",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "海滨栈道看红树林和对面香港天际线",
+      "best": "傍晚",
+      "heat": 86,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "海景",
+        "骑行"
+      ]
+    },
+    {
+      "name": "世界之窗",
+      "type": "主题",
+      "rating": 4.3,
+      "hours": 4,
+      "ticket": 220,
+      "desc": "微缩的世界地标，一晚看遍全球",
+      "best": "全天",
+      "heat": 76,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "微缩景观"
+      ]
+    },
+    {
+      "name": "华侨城创意园",
+      "type": "文创",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "旧厂房改造的艺术区，展览与咖啡馆",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 45,
+      "indoor": true,
+      "tags": [
+        "文创",
+        "艺术",
+        "免费"
+      ]
+    },
+    {
+      "name": "大梅沙海滨公园",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "免费的海滨浴场，沙滩排球与椰林",
+      "best": "上午",
+      "heat": 80,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "海滨",
+        "免费",
+        "亲子"
+      ]
+    },
+    {
+      "name": "莲花山公园",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "登山顶俯瞰市民中心，小平铜像",
+      "best": "清晨",
+      "heat": 68,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "公园",
+        "登高",
+        "免费"
+      ]
+    },
+    {
+      "name": "东部华侨城",
+      "type": "主题",
+      "rating": 4.3,
+      "hours": 5,
+      "ticket": 180,
+      "desc": "大侠谷+茶溪谷的山谷乐园",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "乐园",
+        "山景",
+        "亲子"
+      ]
+    },
+    {
+      "name": "南头古城",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "深圳的前身，1700年历史的古街",
+      "best": "午后",
+      "heat": 64,
+      "crowd": 40,
+      "indoor": false,
+      "tags": [
+        "古城",
+        "历史",
+        "免费"
+      ]
+    },
+    {
+      "name": "海上世界",
+      "type": "夜游",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "明华轮旁边的滨海商业区，夜景酒吧",
+      "best": "20:00 后",
+      "heat": 72,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "夜景",
+        "美食",
+        "免费"
+      ]
+    }
+  ],
+  "wuhan": [
+    {
+      "name": "黄鹤楼",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 70,
+      "desc": "江南三大名楼之首，崔颢李白都题过诗",
+      "best": "上午",
+      "heat": 90,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "名楼",
+        "必去",
+        "长江"
+      ]
+    },
+    {
+      "name": "东湖绿道",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "国内最长的城市环湖绿道，骑行赏樱",
+      "best": "清晨",
+      "heat": 86,
+      "crowd": 65,
+      "indoor": false,
+      "tags": [
+        "免费",
+        "骑行",
+        "湖泊"
+      ]
+    },
+    {
+      "name": "武汉大学·樱花",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "三月樱花大道，百年老建筑里的春天",
+      "best": "上午",
+      "heat": 92,
+      "crowd": 85,
+      "indoor": false,
+      "tags": [
+        "樱花",
+        "校园",
+        "摄影"
+      ]
+    },
+    {
+      "name": "户部巷",
+      "type": "美食",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 0,
+      "desc": "过早一条街，热干面豆皮吃个遍",
+      "best": "清晨",
+      "heat": 84,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "美食",
+        "过早",
+        "免费"
+      ]
+    },
+    {
+      "name": "江汉路步行街",
+      "type": "城市",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "百年商业街，中西合璧的老建筑",
+      "best": "午后",
+      "heat": 76,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "步行街",
+        "老建筑",
+        "免费"
+      ]
+    },
+    {
+      "name": "湖北省博物馆",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "越王勾践剑和曾侯乙编钟镇馆",
+      "best": "上午",
+      "heat": 82,
+      "crowd": 70,
+      "indoor": true,
+      "tags": [
+        "博物馆",
+        "免费",
+        "文物"
+      ]
+    },
+    {
+      "name": "长江大桥",
+      "type": "城市",
+      "rating": 4.5,
+      "hours": 1,
+      "ticket": 0,
+      "desc": "万里长江第一桥，桥上看江面轮渡",
+      "best": "傍晚",
+      "heat": 74,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "长江",
+        "免费"
+      ]
+    },
+    {
+      "name": "昙华林",
+      "type": "文创",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "老武昌的艺术街巷，咖啡馆与文创",
+      "best": "午后",
+      "heat": 66,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "文创",
+        "老街",
+        "免费"
+      ]
+    }
+  ],
+  "tianjin": [
+    {
+      "name": "五大道",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "万国建筑博览馆，骑小车逛遍小洋楼",
+      "best": "午后",
+      "heat": 86,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "洋楼",
+        "免费",
+        "骑行"
+      ]
+    },
+    {
+      "name": "天津之眼",
+      "type": "城市",
+      "rating": 4.5,
+      "hours": 1,
+      "ticket": 70,
+      "desc": "跨海河的摩天轮，晚上俯瞰津门夜景",
+      "best": "20:00 后",
+      "heat": 84,
+      "crowd": 68,
+      "indoor": true,
+      "tags": [
+        "摩天轮",
+        "夜景",
+        "地标"
+      ]
+    },
+    {
+      "name": "古文化街",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "天后宫与杨柳青年画，津味老街",
+      "best": "上午",
+      "heat": 74,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "老街",
+        "民俗",
+        "免费"
+      ]
+    },
+    {
+      "name": "瓷房子",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 1,
+      "ticket": 50,
+      "desc": "用古瓷片贴满的法式洋楼",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 58,
+      "indoor": false,
+      "tags": [
+        "奇特",
+        "建筑",
+        "打卡"
+      ]
+    },
+    {
+      "name": "意式风情区",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "梁启超故居所在的意式街区，酒吧与餐厅",
+      "best": "19:00 后",
+      "heat": 72,
+      "crowd": 52,
+      "indoor": false,
+      "tags": [
+        "欧式",
+        "夜游",
+        "免费"
+      ]
+    },
+    {
+      "name": "海河游船",
+      "type": "夜游",
+      "rating": 4.4,
+      "hours": 1,
+      "ticket": 100,
+      "desc": "乘船游海河，两桥一景看津门夜景",
+      "best": "20:00 后",
+      "heat": 78,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "游船",
+        "夜景",
+        "灯光"
+      ]
+    },
+    {
+      "name": "国家海洋博物馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "滨海新区的海博馆，亲子科普必去",
+      "best": "上午",
+      "heat": 68,
+      "crowd": 50,
+      "indoor": true,
+      "tags": [
+        "博物馆",
+        "免费",
+        "亲子"
+      ]
+    },
+    {
+      "name": "天津相声茶馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 80,
+      "desc": "嗑着瓜子听一场相声，天津人的快乐",
+      "best": "晚上",
+      "heat": 80,
+      "crowd": 60,
+      "indoor": true,
+      "tags": [
+        "相声",
+        "民俗",
+        "室内"
+      ]
+    }
+  ],
+  "luoyang": [
+    {
+      "name": "龙门石窟",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 90,
+      "desc": "卢舍那大佛，北魏到唐的十万尊造像",
+      "best": "清晨",
+      "heat": 92,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "石窟",
+        "必去"
+      ]
+    },
+    {
+      "name": "白马寺",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 35,
+      "desc": "中国第一古刹，佛门祖庭",
+      "best": "上午",
+      "heat": 84,
+      "crowd": 62,
+      "indoor": false,
+      "tags": [
+        "古寺",
+        "佛教",
+        "历史"
+      ]
+    },
+    {
+      "name": "洛阳牡丹园",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 50,
+      "desc": "四月牡丹花开，国色天香满园",
+      "best": "上午",
+      "heat": 90,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "牡丹",
+        "花卉",
+        "摄影"
+      ]
+    },
+    {
+      "name": "老君山",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 6,
+      "ticket": 100,
+      "desc": "云顶天宫的金顶道观，云海日出",
+      "best": "日出",
+      "heat": 80,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "云海",
+        "登山",
+        "日出"
+      ]
+    },
+    {
+      "name": "丽景门",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "洛阳老街的城门，水席一条街",
+      "best": "午后",
+      "heat": 76,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "古城",
+        "美食",
+        "免费"
+      ]
+    },
+    {
+      "name": "洛阳博物馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "唐三彩与河洛文明，免费预约",
+      "best": "上午",
+      "heat": 70,
+      "crowd": 48,
+      "indoor": true,
+      "tags": [
+        "博物馆",
+        "免费",
+        "文物"
+      ]
+    },
+    {
+      "name": "应天门",
+      "type": "夜游",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 60,
+      "desc": "隋唐洛阳城的正门，夜晚灯光秀",
+      "best": "20:00 后",
+      "heat": 82,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "唐风",
+        "夜景",
+        "灯光"
+      ]
+    },
+    {
+      "name": "洛邑古城",
+      "type": "夜游",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "汉服打卡的仿古街区，灯火通明",
+      "best": "入夜",
+      "heat": 78,
+      "crowd": 74,
+      "indoor": false,
+      "tags": [
+        "夜游",
+        "汉服",
+        "免费"
+      ]
+    }
+  ],
+  "sanya": [
+    {
+      "name": "亚龙湾",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 4,
+      "ticket": 0,
+      "desc": "天下第一湾，白沙碧浪适合玩水",
+      "best": "上午",
+      "heat": 90,
+      "crowd": 78,
+      "indoor": false,
+      "tags": [
+        "海湾",
+        "免费",
+        "玩水"
+      ]
+    },
+    {
+      "name": "蜈支洲岛",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 6,
+      "ticket": 144,
+      "desc": "潜水胜地，珊瑚与果冻海",
+      "best": "上午",
+      "heat": 88,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "海岛",
+        "潜水",
+        "珊瑚"
+      ]
+    },
+    {
+      "name": "天涯海角",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 3,
+      "ticket": 68,
+      "desc": "南天一柱与两块礁石，椰林沙滩",
+      "best": "午后",
+      "heat": 74,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "地标",
+        "沙滩",
+        "打卡"
+      ]
+    },
+    {
+      "name": "南山文化旅游区",
+      "type": "人文",
+      "rating": 4.5,
+      "hours": 4,
+      "ticket": 108,
+      "desc": "108米海上观音，园林与素斋",
+      "best": "上午",
+      "heat": 80,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "观音",
+        "佛教",
+        "园林"
+      ]
+    },
+    {
+      "name": "大小洞天",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 3,
+      "ticket": 90,
+      "desc": "海边的奇石洞天，婚纱照圣地",
+      "best": "傍晚",
+      "heat": 66,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "海景",
+        "礁石",
+        "摄影"
+      ]
+    },
+    {
+      "name": "椰梦长廊",
+      "type": "城市",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "市区沿海的椰林大道，日落散步",
+      "best": "傍晚",
+      "heat": 76,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "椰林",
+        "日落",
+        "免费"
+      ]
+    },
+    {
+      "name": "鹿回头",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 35,
+      "desc": "登高俯瞰三亚湾全景，看夜景",
+      "best": "入夜",
+      "heat": 72,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "观景",
+        "夜景",
+        "登高"
+      ]
+    },
+    {
+      "name": "第一市场海鲜",
+      "type": "美食",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "买海鲜加工吃，热带水果摊也多",
+      "best": "入夜",
+      "heat": 84,
+      "crowd": 72,
+      "indoor": false,
+      "tags": [
+        "海鲜",
+        "夜市",
+        "美食"
+      ]
+    }
+  ],
+  "lhasa": [
+    {
+      "name": "布达拉宫",
+      "type": "人文",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 200,
+      "desc": "世界海拔最高的宫殿，需提前预约",
+      "best": "上午",
+      "heat": 95,
+      "crowd": 85,
+      "indoor": false,
+      "tags": [
+        "世界遗产",
+        "必去",
+        "预约"
+      ]
+    },
+    {
+      "name": "大昭寺",
+      "type": "人文",
+      "rating": 4.7,
+      "hours": 2,
+      "ticket": 85,
+      "desc": "藏传佛教圣地的中心，释迦牟尼12岁等身像",
+      "best": "清晨",
+      "heat": 90,
+      "crowd": 80,
+      "indoor": false,
+      "tags": [
+        "寺庙",
+        "圣城",
+        "转经"
+      ]
+    },
+    {
+      "name": "八廓街",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "围绕大昭寺的转经道，藏式老街",
+      "best": "午后",
+      "heat": 84,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "转经",
+        "老街",
+        "免费"
+      ]
+    },
+    {
+      "name": "色拉寺辩经",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 2,
+      "ticket": 50,
+      "desc": "每天下午三点僧众辩经，热闹独特",
+      "best": "下午",
+      "heat": 82,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "辩经",
+        "寺庙",
+        "人文"
+      ]
+    },
+    {
+      "name": "罗布林卡",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 60,
+      "desc": "达赖的夏宫园林，鲜花与藏式建筑",
+      "best": "上午",
+      "heat": 72,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "园林",
+        "夏宫",
+        "免费"
+      ]
+    },
+    {
+      "name": "纳木错",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 8,
+      "ticket": 120,
+      "desc": "世界海拔最高的大湖，圣湖蓝得发亮",
+      "best": "清晨",
+      "heat": 86,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "圣湖",
+        "一日游",
+        "雪山"
+      ]
+    },
+    {
+      "name": "羊卓雍措",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 7,
+      "ticket": 60,
+      "desc": "碧玉般的圣湖，环湖公路看四时颜色",
+      "best": "上午",
+      "heat": 84,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "圣湖",
+        "观景",
+        "摄影"
+      ]
+    },
+    {
+      "name": "甜茶馆",
+      "type": "市井",
+      "rating": 4.4,
+      "hours": 1,
+      "ticket": 0,
+      "desc": "光明港琼甜茶馆，本地人歇脚的地方",
+      "best": "午后",
+      "heat": 66,
+      "crowd": 58,
+      "indoor": true,
+      "tags": [
+        "甜茶",
+        "市井",
+        "室内"
+      ]
+    }
+  ],
+  "urumqi": [
+    {
+      "name": "天山天池",
+      "type": "自然",
+      "rating": 4.7,
+      "hours": 5,
+      "ticket": 95,
+      "desc": "博格达峰下的高山湖泊，雪山倒影",
+      "best": "上午",
+      "heat": 90,
+      "crowd": 70,
+      "indoor": false,
+      "tags": [
+        "天池",
+        "雪山",
+        "必去"
+      ]
+    },
+    {
+      "name": "新疆国际大巴扎",
+      "type": "城市",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "最大的巴扎，干果地毯与维吾尔风情",
+      "best": "午后",
+      "heat": 82,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "集市",
+        "民族",
+        "免费"
+      ]
+    },
+    {
+      "name": "红山公园",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "市区中心的山丘，俯瞰乌鲁木齐全景",
+      "best": "傍晚",
+      "heat": 66,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "观景",
+        "免费",
+        "公园"
+      ]
+    },
+    {
+      "name": "新疆博物馆",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "楼兰干尸与汉代织锦，西域历史",
+      "best": "上午",
+      "heat": 72,
+      "crowd": 50,
+      "indoor": true,
+      "tags": [
+        "博物馆",
+        "免费",
+        "文物"
+      ]
+    },
+    {
+      "name": "南山牧场",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 5,
+      "ticket": 30,
+      "desc": "草原骑马，看雪山下的白毡房",
+      "best": "上午",
+      "heat": 80,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "草原",
+        "骑马",
+        "雪山"
+      ]
+    },
+    {
+      "name": "水磨沟公园",
+      "type": "自然",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "市区内的溪谷公园，夏日避暑",
+      "best": "上午",
+      "heat": 60,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "公园",
+        "避暑",
+        "免费"
+      ]
+    },
+    {
+      "name": "红光山",
+      "type": "人文",
+      "rating": 4.2,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "丝路大道与生态园林区",
+      "best": "午后",
+      "heat": 58,
+      "crowd": 30,
+      "indoor": false,
+      "tags": [
+        "园林",
+        "免费",
+        "休闲"
+      ]
+    },
+    {
+      "name": "二道桥市场",
+      "type": "美食",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "烤包子与羊肉串，夜市烟火",
+      "best": "入夜",
+      "heat": 78,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "夜市",
+        "美食",
+        "民族"
+      ]
+    }
+  ],
+  "dunhuang": [
+    {
+      "name": "莫高窟",
+      "type": "人文",
+      "rating": 4.9,
+      "hours": 4,
+      "ticket": 238,
+      "desc": "千年壁画与彩塑，需提前一个月预约",
+      "best": "上午",
+      "heat": 95,
+      "crowd": 88,
+      "indoor": true,
+      "tags": [
+        "世界遗产",
+        "壁画",
+        "预约"
+      ]
+    },
+    {
+      "name": "鸣沙山·月牙泉",
+      "type": "自然",
+      "rating": 4.8,
+      "hours": 3,
+      "ticket": 110,
+      "desc": "大漠驼队与沙漠绿洲月牙泉，日落绝美",
+      "best": "傍晚",
+      "heat": 92,
+      "crowd": 82,
+      "indoor": false,
+      "tags": [
+        "沙漠",
+        "骆驼",
+        "日落"
+      ]
+    },
+    {
+      "name": "玉门关",
+      "type": "人文",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 40,
+      "desc": "春风不度玉门关，汉长城遗址",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 38,
+      "indoor": false,
+      "tags": [
+        "关隘",
+        "丝路",
+        "历史"
+      ]
+    },
+    {
+      "name": "雅丹国家地质公园",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 5,
+      "ticket": 120,
+      "desc": "魔鬼城的风蚀地貌，日落时最壮观",
+      "best": "傍晚",
+      "heat": 78,
+      "crowd": 50,
+      "indoor": false,
+      "tags": [
+        "雅丹",
+        "日落",
+        "摄影"
+      ]
+    },
+    {
+      "name": "敦煌夜市",
+      "type": "美食",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "沙州夜市，杏皮水与驴肉黄面",
+      "best": "入夜",
+      "heat": 74,
+      "crowd": 60,
+      "indoor": false,
+      "tags": [
+        "夜市",
+        "美食",
+        "免费"
+      ]
+    },
+    {
+      "name": "西千佛洞",
+      "type": "人文",
+      "rating": 4.2,
+      "hours": 1.5,
+      "ticket": 30,
+      "desc": "莫高窟的西区姊妹窟，人少清静",
+      "best": "上午",
+      "heat": 58,
+      "crowd": 25,
+      "indoor": true,
+      "tags": [
+        "石窟",
+        "壁画",
+        "人少"
+      ]
+    },
+    {
+      "name": "敦煌博物馆",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "丝路文物与敦煌历史，免费参观",
+      "best": "午后",
+      "heat": 60,
+      "crowd": 40,
+      "indoor": true,
+      "tags": [
+        "博物馆",
+        "免费",
+        "丝路"
+      ]
+    },
+    {
+      "name": "敦煌古城影视城",
+      "type": "人文",
+      "rating": 4,
+      "hours": 2,
+      "ticket": 50,
+      "desc": "仿汉代古城的影视基地，可穿汉服",
+      "best": "午后",
+      "heat": 52,
+      "crowd": 35,
+      "indoor": false,
+      "tags": [
+        "影视",
+        "汉服",
+        "打卡"
+      ]
+    }
+  ],
+  "fuzhou": [
+    {
+      "name": "三坊七巷",
+      "type": "人文",
+      "rating": 4.6,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "明清古建筑群，林则徐故居与坊巷",
+      "best": "上午",
+      "heat": 86,
+      "crowd": 75,
+      "indoor": false,
+      "tags": [
+        "古街",
+        "名人故居",
+        "免费"
+      ]
+    },
+    {
+      "name": "鼓山",
+      "type": "自然",
+      "rating": 4.5,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "涌泉寺与摩崖石刻，俯瞰福州城",
+      "best": "清晨",
+      "heat": 76,
+      "crowd": 52,
+      "indoor": false,
+      "tags": [
+        "登山",
+        "古寺",
+        "观景"
+      ]
+    },
+    {
+      "name": "平潭岛",
+      "type": "自然",
+      "rating": 4.6,
+      "hours": 8,
+      "ticket": 0,
+      "desc": "海坛古城与蓝眼泪，网红海岛",
+      "best": "傍晚",
+      "heat": 84,
+      "crowd": 66,
+      "indoor": false,
+      "tags": [
+        "海岛",
+        "蓝眼泪",
+        "海景"
+      ]
+    },
+    {
+      "name": "福州西湖",
+      "type": "自然",
+      "rating": 4.3,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "开化寺与古榕，市中心的湖",
+      "best": "上午",
+      "heat": 64,
+      "crowd": 45,
+      "indoor": false,
+      "tags": [
+        "湖泊",
+        "公园",
+        "免费"
+      ]
+    },
+    {
+      "name": "上下杭",
+      "type": "人文",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "百年商埠的骑楼街，老字号林立",
+      "best": "午后",
+      "heat": 70,
+      "crowd": 55,
+      "indoor": false,
+      "tags": [
+        "商埠",
+        "骑楼",
+        "免费"
+      ]
+    },
+    {
+      "name": "烟台山",
+      "type": "文创",
+      "rating": 4.4,
+      "hours": 2,
+      "ticket": 0,
+      "desc": "近代领事馆与洋行建筑，艺术街区",
+      "best": "午后",
+      "heat": 72,
+      "crowd": 48,
+      "indoor": false,
+      "tags": [
+        "洋楼",
+        "文创",
+        "免费"
+      ]
+    },
+    {
+      "name": "福州温泉",
+      "type": "体验",
+      "rating": 4.5,
+      "hours": 2,
+      "ticket": 120,
+      "desc": "榕城温泉，泡汤解乏的当地生活",
+      "best": "入夜",
+      "heat": 78,
+      "crowd": 55,
+      "indoor": true,
+      "tags": [
+        "温泉",
+        "放松",
+        "室内"
+      ]
+    },
+    {
+      "name": "国家森林公园",
+      "type": "自然",
+      "rating": 4.4,
+      "hours": 3,
+      "ticket": 0,
+      "desc": "千年古榕与森林步道，天然氧吧",
+      "best": "上午",
+      "heat": 66,
+      "crowd": 42,
+      "indoor": false,
+      "tags": [
+        "森林",
+        "古榕",
+        "免费"
+      ]
+    }
+  ]
+}

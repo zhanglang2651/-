@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+_*.txt
+_*.log
+_*.json
+.workbuddy/
+
+# 运行时数据（只忽略根目录的 SQLite 目录；app/data/ 是知识库源数据，必须进版本控制）
+/data/
+web/assets/photos/
+web/assets/poi_photos/
+shot_tmp/

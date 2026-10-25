@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云游 · 文旅智能助手</title>
+<link rel="stylesheet" href="/static/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>">
+</head>
+<body>
+<div class="aurora"><span></span><span></span><span></span></div>
+
+<header class="topbar">
+  <div class="brand" data-nav="home">
+    <div class="logo">◈</div>
+    <div class="brand-txt"><b>云游</b><small>文旅智能助手</small></div>
+  </div>
+  <nav class="nav" id="nav">
+    <button class="nav-btn active" data-view="home">首页</button>
+    <button class="nav-btn" data-view="trends">实时热点</button>
+    <button class="nav-btn" data-view="planner">AI 规划</button>
+    <button class="nav-btn" data-view="explore">城市探索</button>
+    <button class="nav-btn" data-view="trips">我的行程</button>
+    <button class="nav-btn" data-view="orders">我的订单</button>
+    <button class="nav-btn" data-view="about">技术架构</button>
+  </nav>
+  <div class="sys" id="sysStatus">
+    <i class="dot pulse"></i><span id="statusText">连接中</span>
+  </div>
+  <div class="user-box" id="userBox"></div>
+</header>
+
+<main>
+<!-- ============================ HOME ============================ -->
+<section class="view active" id="view-home">
+  <div class="hero-stage">
+    <div class="hero-slides" id="heroSlides"></div>
+    <div class="hero-veil"></div>
+  </div>
+
+  <div class="hero">
+    <div class="welcome hidden" id="welcomeBar"></div>
+    <div class="hero-badge"><i></i> AI Agent · 实时数据驱动</div>
+    <h1>把一座城<br><span class="grad">排进你的日程</span></h1>
+    <p class="hero-sub">说出你的想法，Agent 自动查天气、挑景点、算预算、排路线。<br>再顺手告诉你，此刻这座城哪里最热。</p>
+    <form class="hero-input" id="heroForm">
+      <input id="heroQuery" type="text" placeholder="例如：贵阳玩三天，带爸妈，不想太赶，想吃酸汤鱼" autocomplete="off">
+      <button type="submit"><span>开始规划</span><svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </form>
+    <div class="chips" id="heroChips">
+      <button class="chip" data-q="贵阳玩3天，带爸妈，节奏轻松，想吃酸汤鱼">贵阳 3 天·带爸妈</button>
+      <button class="chip" data-q="成都周末2天，情侣，主要想吃和看熊猫，预算舒适">成都 2 天·熊猫美食</button>
+      <button class="chip" data-q="西安3天研学，带10岁孩子，历史为主，经济型预算">西安 3 天·亲子研学</button>
+      <button class="chip" data-q="厦门2天，和朋友拍照citywalk，晚上想去海边">厦门 2 天·citywalk</button>
+    </div>
+    <!-- 右侧实时看板 -->
+    <aside class="hero-side" id="heroSide">
+      <div class="hs-card">
+        <div class="hs-head">
+          <span><i class="dot pulse"></i>此刻实时</span>
+          <small id="hsTime">--:--</small>
+        </div>
+        <div class="hs-list" id="hsList">
+          <div class="hs-skel"></div><div class="hs-skel"></div><div class="hs-skel"></div>
+        </div>
+        <div class="hs-foot">
+          <span id="hsNote">全国 20 城 · 每 20 秒刷新</span>
+          <button class="hs-more" data-nav="trends">完整榜单 →</button>
+        </div>
+      </div>
+      <div class="hs-tip">
+        <b>数据来源</b>
+        <span>气象：Open-Meteo 实况</span>
+        <span>热度：五因子模型计算</span>
+        <span>影像：Unsplash</span>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ==================== 时令 · 节气条 ==================== -->
+  <section class="term-bar" id="termBar">
+    <div class="tb-orb">
+      <svg viewBox="0 0 88 88" class="tb-ring">
+        <circle cx="44" cy="44" r="38" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="1.5"/>
+        <circle id="tbArc" cx="44" cy="44" r="38" fill="none" stroke="url(#tbGrad)" stroke-width="2.5"
+                stroke-linecap="round" transform="rotate(-90 44 44)"/>
+        <defs>
+          <linearGradient id="tbGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5eead4"/><stop offset="60%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#f472b6"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="tb-orb-txt">
+        <b id="tbName">—</b>
+        <small id="tbSeason"></small>
+      </div>
+    </div>
+
+    <div class="tb-main">
+      <div class="tb-title">
+        <span class="tb-tag">今日节气</span>
+        <span class="tb-date" id="tbDate"></span>
+        <span class="tb-count" id="tbCount"></span>
+      </div>
+      <div class="tb-pheno" id="tbPheno"></div>
+      <div class="tb-advice" id="tbAdvice"></div>
+    </div>
+
+    <div class="tb-track">
+      <div class="tb-track-label">二十四节气</div>
+      <div class="tb-terms" id="tbTerms"></div>
+    </div>
+
+    <div class="tb-fest" id="tbFest"></div>
+  </section>
+
+  <!-- ==================== 应季正当时 ==================== -->
+  <div class="sec-head">
+    <div><h2>此刻正当季</h2><p>按最佳旅行季筛选 · 十月该去的地方，比攻略准</p></div>
+    <div class="hm-legend"><span><i style="background:#4ade80"></i>最佳季</span><span><i style="background:#fbbf24"></i>有节庆</span></div>
+  </div>
+  <div class="season-rail" id="seasonRail"><div class="skel-row"></div></div>
+
+  <div class="sec-head">
+    <div><h2>此刻，哪座城最热</h2><p>每城取当前热度第一的景点 · 影像来自 Unsplash，与实景可能存在差异</p></div>
+    <button class="ghost" data-nav="trends">查看完整榜单 →</button>
+  </div>
+  <div class="radar" id="radar"><div class="skel-row"></div><div class="skel-row"></div></div>
+
+  <div class="sec-head">
+    <div><h2>按心情挑玩法</h2><p>想看山水、想钻古镇、只想吃东西——挑一个，我们按这个方向排行程</p></div>
+  </div>
+  <div class="theme-wall" id="themeWall"></div>
+
+  <div class="sec-head">
+    <div><h2>一城一味</h2><p>风味是认识一座城最快的方式</p></div>
+  </div>
+  <div class="food-grid" id="foodGrid"></div>
+
+  <div class="sec-head">
+    <div><h2>经典线路</h2><p>已经走过无数遍的路线，含每日落脚点与预算</p></div>
+  </div>
+  <div class="route-grid" id="routeGrid"></div>
+
+  <div class="sec-head">
+    <div><h2>什么时候去</h2><p>城市 × 12 个月 · 颜色越亮说明那几个月最值得去</p></div>
+    <div class="matrix-legend">
+      <span class="ml-item"><i class="ml-box lv1"></i>3个月</span>
+      <span class="ml-item"><i class="ml-box lv2"></i>4-5个月</span>
+      <span class="ml-item"><i class="ml-box lv3"></i>6-8个月</span>
+      <span class="ml-item"><i class="ml-box lv4"></i>9个月以上</span>
+      <span class="ml-item"><i class="ml-box cur"></i>当前月</span>
+    </div>
+  </div>
+  <div class="matrix-wrap">
+    <div class="matrix-scroll" id="matrixScroll"></div>
+  </div>
+
+  <div class="sec-head">
+    <div><h2>全国热度分布</h2><p>光点越大代表该城当前最热景点热度越高，点击直达</p></div>
+    <div class="hm-legend"><span><i style="background:#4ade80"></i>平稳</span><span><i style="background:#38bdf8"></i>温热</span><span><i style="background:#fbbf24"></i>高热</span><span><i style="background:#f87171"></i>爆满</span></div>
+  </div>
+  <div class="heatmap-wrap">
+    <svg id="heatMap" viewBox="0 0 900 420" preserveAspectRatio="xMidYMid meet"></svg>
+    <div class="hm-tip" id="hmTip"></div>
+  </div>
+
+  <div class="sec-head"><div><h2>三件事，做得很实在</h2><p>不是套壳对话，是有数据支撑的行程工程</p></div></div>
+  <div class="ability">
+    <article class="ab-card">
+      <div class="ab-ico grad1">◈</div>
+      <h3>多因子热度引擎</h3>
+      <p>基线热度 × 气象实况 × 季节契合 × 节令势能 × 时段动能，五因子加权，20 秒推一次增量。</p>
+      <div class="ab-tags"><span>真实天气</span><span>节令日历</span><span>错峰建议</span></div>
+    </article>
+    <article class="ab-card">
+      <div class="ab-ico grad2">◇</div>
+      <h3>LangGraph 编排</h3>
+      <p>需求解析 → 工具调用 → 行程生成 → 结构校验，四节点带条件回边，生成不合格会自动回炉。</p>
+      <div class="ab-tags"><span>StateGraph</span><span>工具调用</span><span>自动修复</span></div>
+    </article>
+    <article class="ab-card">
+      <div class="ab-ico grad3">◆</div>
+      <h3>可核验的行程</h3>
+      <p>景点只能从知识库选，票价时长都是真数；每条安排都给出为什么这个时间去。</p>
+      <div class="ab-tags"><span>不编景点</span><span>真实票价</span><span>天气适配</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================ TRENDS ============================ -->
+<section class="view" id="view-trends">
+  <div class="trend-top">
+    <div class="sec-head tight">
+      <div><h2>实时热点</h2><p>数据每 20 秒推送一次增量，涨跌实时可见</p></div>
+      <div class="live"><i class="dot pulse"></i><span id="liveText">等待推送</span></div>
+    </div>
+    <div class="city-strip" id="cityStrip"></div>
+  </div>
+
+  <div class="trend-grid">
+    <div class="trend-left">
+      <div class="weather-card" id="weatherCard"></div>
+      <div class="brief-card" id="briefCard"></div>
+    </div>
+    <div class="trend-right">
+      <div class="board">
+        <div class="board-head"><span>热度榜</span><span class="legend">热度 / 涨跌 / 客流</span></div>
+        <div id="trendList" class="trend-list"><div class="skel-row"></div><div class="skel-row"></div><div class="skel-row"></div></div>
+      </div>
+      <p class="model-note" id="modelNote"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PLANNER ============================ -->
+<section class="view" id="view-planner">
+  <div class="plan-wrap">
+    <aside class="plan-side">
+      <h2>AI 行程规划</h2>
+      <p class="hint">一句话说清目的地、天数、同行人、偏好，剩下的交给 Agent。</p>
+      <textarea id="planQuery" rows="5" placeholder="例如：黔东南4天，想看苗寨和梯田，节奏慢一点，预算中等"></textarea>
+      <div class="origin-row">
+        <label>出发地</label>
+        <select id="planOrigin"></select>
+        <span class="origin-hint" id="originHint">用于估算城际交通</span>
+      </div>
+      <div class="quick-groups">
+        <div class="qg"><label>天数</label><div class="chips sm" data-fill="days">
+          <button data-t="2天">2 天</button><button data-t="3天">3 天</button><button data-t="5天">5 天</button><button data-t="7天">7 天</button></div></div>
+        <div class="qg"><label>预算</label><div class="chips sm" data-fill="budget">
+          <button data-t="经济型预算">经济</button><button data-t="中等预算">中等</button><button data-t="舒适型预算">舒适</button><button data-t="豪华预算">豪华</button></div></div>
+        <div class="qg"><label>偏好</label><div class="chips sm multi" data-fill="pref">
+          <button data-t="自然风光">自然</button><button data-t="历史人文">人文</button><button data-t="美食">美食</button><button data-t="夜景">夜游</button><button data-t="带娃亲子">亲子</button></div></div>
+      </div>
+      <button class="primary block" id="planBtn">生成行程</button>
+      <div class="steps" id="planSteps">
+        <div class="stp" data-step="intake"><i></i><div><b>解析需求</b><small>等待中</small></div></div>
+        <div class="stp" data-step="context"><i></i><div><b>采集实时数据</b><small>等待中</small></div></div>
+        <div class="stp" data-step="compose"><i></i><div><b>编排每日行程</b><small>等待中</small></div></div>
+        <div class="stp" data-step="review"><i></i><div><b>质量校验</b><small>等待中</small></div></div>
+      </div>
+    </aside>
+
+    <div class="plan-main" id="planMain">
+      <div class="empty" id="planEmpty">
+        <div class="empty-orb">◈</div>
+        <h3>行程将在这里生成</h3>
+        <p>左侧输入需求，Agent 会实时展示它的每一步动作</p>
+      </div>
+      <div class="loading-panel hidden" id="planLoading">
+        <div class="lp-orb"><span></span><span></span><span></span></div>
+        <h3>Agent 正在工作中</h3>
+        <p>正在为你查天气、挑景点、算预算，通常需要 40-90 秒</p>
+        <div class="lp-bars"><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div id="planResult" class="hidden"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ EXPLORE ============================ -->
+<section class="view" id="view-explore">
+  <div class="sec-head">
+    <div><h2>城市探索</h2><p>点开一座城，看它值不值得去、什么时候去、要花多少钱</p></div>
+    <input class="search" id="exploreSearch" placeholder="搜索景点，如：梯田 / 夜景 / 溶洞">
+  </div>
+  <div class="city-wall" id="cityWall"></div>
+  <div class="drawer-mask" id="drawerMask"></div>
+  <aside class="drawer" id="drawer">
+    <button class="drawer-close" id="drawerClose">✕</button>
+    <div id="drawerBody"></div>
+  </aside>
+</section>
+
+<!-- 景点图片灯箱 -->
+<div class="lightbox" id="lightbox"></div>
+
+<!-- ============================ TRIPS ============================ -->
+<section class="view" id="view-trips">
+  <div class="sec-head">
+    <div><h2>我的行程</h2><p>登录后收藏的行程都会留在这里</p></div>
+    <button class="ghost" data-nav="planner">新建行程 →</button>
+  </div>
+  <div class="trips" id="tripsGrid"></div>
+</section>
+
+<!-- ============================ ORDERS ============================ -->
+<section class="view" id="view-orders">
+  <div class="sec-head">
+    <div><h2>我的订单</h2><p>车票、门票、酒店统一在这里管理，出行前一眼看清花了多少、还差什么</p></div>
+    <button class="primary" id="addOrderBtn">+ 新增订单</button>
+  </div>
+
+  <div class="order-stats" id="orderStats">
+    <div class="os-item"><small>本月支出</small><b id="osMonth">¥0</b></div>
+    <div class="os-item"><small>待支付</small><b id="osPending">0</b></div>
+    <div class="os-item"><small>已使用</small><b id="osDone">0</b></div>
+    <div class="os-item"><small>累计订单</small><b id="osTotal">0</b></div>
+  </div>
+
+  <div class="order-tabs" id="orderTabs">
+    <button class="on" data-type="">全部</button>
+    <button data-type="train">🚄 车票</button>
+    <button data-type="ticket">🎫 门票</button>
+    <button data-type="hotel">🏨 酒店</button>
+  </div>
+
+  <div class="order-list" id="orderList"></div>
+</section>
+
+<!-- ============================ ABOUT ============================ -->
+<section class="view" id="view-about">
+  <div class="sec-head"><div><h2>技术架构</h2><p>从自然语言到可执行行程，中间发生了什么</p></div></div>
+  <div class="arch">
+    <svg viewBox="0 0 900 420" class="arch-svg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#4b5c76"/></marker>
+      </defs>
+      <rect x="24" y="160" width="120" height="80" rx="14" fill="rgba(94,234,212,.09)" stroke="#2dd4bf" stroke-opacity=".5"/>
+      <text x="84" y="192" text-anchor="middle" class="svg-t">用户输入</text>
+      <text x="84" y="214" text-anchor="middle" class="svg-s">自然语言需求</text>
+
+      <rect x="188" y="40" width="140" height="72" rx="14" fill="rgba(255,255,255,.04)" stroke="#2a3a52"/>
+      <text x="258" y="70" text-anchor="middle" class="svg-t">intake</text>
+      <text x="258" y="92" text-anchor="middle" class="svg-s">需求结构化</text>
+
+      <rect x="188" y="164" width="140" height="72" rx="14" fill="rgba(255,255,255,.04)" stroke="#2a3a52"/>
+      <text x="258" y="194" text-anchor="middle" class="svg-t">context</text>
+      <text x="258" y="216" text-anchor="middle" class="svg-s">天气 / 景点工具</text>
+
+      <rect x="188" y="288" width="140" height="72" rx="14" fill="rgba(255,255,255,.04)" stroke="#2a3a52"/>
+      <text x="258" y="318" text-anchor="middle" class="svg-t">compose</text>
+      <text x="258" y="340" text-anchor="middle" class="svg-s">流式生成行程</text>
+
+      <rect x="380" y="164" width="140" height="72" rx="14" fill="rgba(255,255,255,.04)" stroke="#2a3a52"/>
+      <text x="450" y="194" text-anchor="middle" class="svg-t">review</text>
+      <text x="450" y="216" text-anchor="middle" class="svg-s">结构校验 + 规则修补</text>
+
+      <rect x="580" y="60" width="140" height="72" rx="14" fill="rgba(167,139,250,.1)" stroke="#a78bfa" stroke-opacity=".5"/>
+      <text x="650" y="90" text-anchor="middle" class="svg-t">行程卡片</text>
+      <text x="650" y="112" text-anchor="middle" class="svg-s">时间轴 + 预算</text>
+
+      <rect x="580" y="180" width="140" height="72" rx="14" fill="rgba(94,234,212,.1)" stroke="#2dd4bf" stroke-opacity=".5"/>
+      <text x="650" y="210" text-anchor="middle" class="svg-t">热度引擎</text>
+      <text x="650" y="232" text-anchor="middle" class="svg-s">SSE 20s 推送</text>
+
+      <rect x="580" y="300" width="140" height="72" rx="14" fill="rgba(255,255,255,.04)" stroke="#2a3a52"/>
+      <text x="650" y="330" text-anchor="middle" class="svg-t">ReAct Agent</text>
+      <text x="650" y="352" text-anchor="middle" class="svg-s">自由问答</text>
+
+      <path d="M144 200 L184 76" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M144 200 L184 200" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M144 200 L184 324" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M328 76 L328 100 L360 100 L360 160" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M328 236 L328 260 L360 260 L360 200" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M328 324 L356 324 L356 240" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M520 186 L576 110" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M450 236 L450 250 L576 250" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M520 216 L560 216 L560 330 L576 330" stroke="#4b5c76" fill="none" marker-end="url(#arw)"/>
+      <path d="M450 160 L450 130 L576 130" stroke="#8b5cf6" stroke-dasharray="5 4" fill="none" marker-end="url(#arw)"/>
+    </svg>
+    <div class="arch-cards">
+      <div class="ac"><b>编排层</b><span>LangGraph StateGraph，四节点 + 条件边；校验失败先规则修补，再模型兜底</span></div>
+      <div class="ac"><b>工具层</b><span>LangChain Tool：天气 / 景点检索 / 热度榜 / 预算估算，可被 Agent 自主调用</span></div>
+      <div class="ac"><b>模型层</b><span>硅基流动 OpenAI 兼容网关，72B 主力 + 7B 轻量，按任务分流</span></div>
+      <div class="ac"><b>账号层</b><span>163 邮箱验证码 + PBKDF2 密码哈希 + 会话 token；收藏落 SQLite</span></div>
+      <div class="ac"><b>数据层</b><span>景点知识库 + Open-Meteo 气象实况 + 节令日历 + 多因子热度模型 + Unsplash 城市影像</span></div>
+    </div>
+  </div>
+  <div class="api-list">
+    <h3>接口清单</h3>
+    <div class="api-row"><code>POST /api/auth/code</code><span>发送 163 邮箱验证码</span></div>
+    <div class="api-row"><code>POST /api/auth/register</code><span>注册（邮箱 + 验证码 + 所在城市）</span></div>
+    <div class="api-row"><code>POST /api/auth/login</code><span>登录，返回会话 token</span></div>
+    <div class="api-row"><code>POST /api/plan</code><span>SSE 流式行程规划（需登录）</span></div>
+    <div class="api-row"><code>POST /api/chat</code><span>SSE 流式对话，ReAct Agent 自主调用工具</span></div>
+    <div class="api-row"><code>GET /api/trends/{city}/stream</code><span>热点实时推送，20 秒一帧</span></div>
+    <div class="api-row"><code>GET /api/photos/{city}</code><span>城市真实影像（本地缓存）</span></div>
+    <div class="api-row"><code>GET /api/geo/nearest</code><span>按坐标推算最近城市</span></div>
+    <div class="api-row"><code>GET /api/plans</code><span>我的行程列表（需登录）</span></div>
+  </div>
+</section>
+</main>
+
+<div class="chat-fab" id="chatFab" title="问问 AI 助手">
+  <svg viewBox="0 0 24 24" width="22" height="22"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.3-.7L3 21l1.8-5.1A8.4 8.4 0 1 1 21 11.5z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+</div>
+<div class="chat-panel" id="chatPanel">
+  <div class="cp-head"><b>云游小助手</b><button id="chatClose">✕</button></div>
+  <div class="cp-body" id="chatBody">
+    <div class="msg bot">你好，我是云游。问我天气、热度、景点、预算都行。也可以直接说「帮我规划贵阳三天」。</div>
+  </div>
+  <form class="cp-input" id="chatForm">
+    <input id="chatInput" placeholder="问点什么…" autocomplete="off">
+    <button type="submit">↑</button>
+  </form>
+</div>
+
+<!-- ============================ AUTH（暮色山河） ============================ -->
+<div class="auth-layer" id="authLayer">
+  <!-- 氛围层：暖色光晕 / 浮尘 / 远山剪影 -->
+  <div class="auth-glow"></div>
+  <div class="auth-dust">
+    <i style="left:11%;top:66%;animation-duration:17s;animation-delay:-3s"></i>
+    <i style="left:27%;top:81%;animation-duration:21s;animation-delay:-9s"></i>
+    <i style="left:44%;top:57%;animation-duration:25s;animation-delay:-5s"></i>
+    <i style="left:67%;top:73%;animation-duration:19s;animation-delay:-12s"></i>
+    <i style="left:83%;top:59%;animation-duration:23s;animation-delay:-7s"></i>
+    <i style="left:93%;top:85%;animation-duration:27s;animation-delay:-15s"></i>
+  </div>
+  <svg class="auth-ridges" viewBox="0 0 1440 420" preserveAspectRatio="none" aria-hidden="true">
+    <circle cx="1132" cy="128" r="44" fill="rgba(224,168,106,.16)"/>
+    <path d="M0,420 L0,306 L120,236 L242,290 L362,208 L502,286 L642,216 L782,294 L902,238 L1042,304 L1182,254 L1322,310 L1440,270 L1440,420 Z"
+      fill="rgba(255,255,255,.030)"/>
+    <path d="M0,420 L0,348 L162,288 L322,332 L472,274 L642,338 L802,292 L962,346 L1122,302 L1282,350 L1440,314 L1440,420 Z"
+      fill="rgba(255,255,255,.050)"/>
+  </svg>
+
+  <div class="auth-visual">
+    <div class="auth-slides" id="authSlides"></div>
+    <div class="auth-visual-inner">
+      <div class="auth-logo">◈</div>
+      <div class="auth-brandline"><span class="brk">云游</span><em>文旅智能助手</em></div>
+      <h2>走过的路，<br>都算数</h2>
+      <ul class="auth-points">
+        <li><i></i>真实气象与城市热度，不靠猜</li>
+        <li><i></i>Agent 编排行程，景点票价可核验</li>
+        <li><i></i>行程云端留存，随时回看</li>
+      </ul>
+      <div class="auth-stats">
+        <div><b>30</b><span>收录城市</span></div>
+        <div><b>240</b><span>景点知识库</span></div>
+        <div><b>20s</b><span>热度刷新</span></div>
+      </div>
+      <div class="auth-credit" id="authCredit"></div>
+    </div>
+  </div>
+
+  <div class="auth-panel">
+    <div class="auth-card">
+      <i class="auth-corner tl"></i><i class="auth-corner tr"></i>
+      <i class="auth-corner bl"></i><i class="auth-corner br"></i>
+
+      <div class="auth-head">
+        <div class="auth-kicker">云游 · 文旅智能助手</div>
+        <h3 id="authTitle">欢迎回来</h3>
+        <p id="authSub">使用 163 邮箱登录，继续你的旅程</p>
+      </div>
+
+      <div class="auth-tabs" id="authTabs">
+        <button class="on" id="tabLogin" data-tab="login">登录</button>
+        <button id="tabRegister" data-tab="register">注册</button>
+      </div>
+
+      <form id="loginForm" class="auth-form">
+        <label class="fld">
+          <span>邮箱</span>
+          <div class="mail-input">
+            <input id="loginEmail" type="text" placeholder="yourname" autocomplete="username">
+            <em>@163.com</em>
+          </div>
+        </label>
+        <label class="fld">
+          <span>密码</span>
+          <div class="pwd-input">
+            <input id="loginPwd" type="password" placeholder="输入密码" autocomplete="current-password">
+            <button type="button" class="pwd-eye" id="loginEye" aria-label="显示密码" title="显示 / 隐藏密码">◉</button>
+          </div>
+        </label>
+        <div class="auth-row">
+          <label class="ck">
+            <input type="checkbox" id="rememberMe"><i></i><span>记住我</span>
+          </label>
+          <button type="button" class="link-btn" id="forgotBtn">忘记密码？</button>
+        </div>
+        <p class="auth-err" id="loginErr"></p>
+        <button class="primary block auth-submit" type="submit" id="loginBtn">
+          <span class="btn-label">登 录</span><i class="btn-arrow">→</i>
+        </button>
+        <div class="auth-providers">
+          <span class="ap-line">其他入口</span>
+          <button type="button" class="ap-btn" data-provider="微信">微信</button>
+          <button type="button" class="ap-btn" data-provider="QQ">QQ</button>
+          <button type="button" class="ap-btn" data-provider="企业 SSO">企业</button>
+        </div>
+      </form>
+
+      <form id="registerForm" class="auth-form hidden">
+        <label class="fld">
+          <span>邮箱</span>
+          <div class="mail-input">
+            <input id="regEmail" type="text" placeholder="yourname" autocomplete="username">
+            <em>@163.com</em>
+          </div>
+        </label>
+        <label class="fld">
+          <span>验证码</span>
+          <div class="code-input">
+            <input id="regCode" type="text" maxlength="6" placeholder="6 位数字" autocomplete="one-time-code">
+            <button type="button" id="sendCodeBtn">获取验证码</button>
+          </div>
+        </label>
+        <label class="fld">
+          <span>密码</span>
+          <div class="pwd-input">
+            <input id="regPwd" type="password" placeholder="至少 8 位，含字母和数字" autocomplete="new-password">
+            <button type="button" class="pwd-eye" id="regEye" aria-label="显示密码" title="显示 / 隐藏密码">◉</button>
+          </div>
+        </label>
+        <label class="fld">
+          <span>昵称</span>
+          <input id="regNick" type="text" maxlength="20" placeholder="怎么称呼你">
+        </label>
+        <label class="fld">
+          <span>我所在的城市</span>
+          <div class="city-input">
+            <select id="regCity"></select>
+            <button type="button" id="locateBtn" title="使用当前位置">定位</button>
+          </div>
+          <small class="fld-hint" id="cityHint">用于首页为你推荐本地实时热点</small>
+        </label>
+        <p class="auth-err" id="regErr"></p>
+        <button class="primary block auth-submit" type="submit" id="regBtn">
+          <span class="btn-label">注册并进入</span><i class="btn-arrow">→</i>
+        </button>
+        <p class="auth-legal">注册即表示同意仅将邮箱用于账号登录，我们不发任何营销邮件。</p>
+      </form>
+
+      <button class="auth-skip" id="authSkip">先随便看看 →</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast-wrap" id="toastWrap"></div>
+
+<!-- 通用弹窗 -->
+<div class="modal-mask" id="modalMask"></div>
+<div class="modal" id="modal">
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

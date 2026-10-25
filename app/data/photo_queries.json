@@ -1,0 +1,142 @@
+{
+  "guiyang": [
+    "Guiyang China city",
+    "Jiaxiu Tower Guiyang",
+    "Qianling Mountain Guizhou"
+  ],
+  "zunyi": [
+    "Zunyi China",
+    "Chishui waterfall Guizhou",
+    "Guizhou red cliff"
+  ],
+  "qiandongnan": [
+    "Xijiang Miao village",
+    "Guizhou ethnic village",
+    "Zhenyuan ancient town"
+  ],
+  "anshun": [
+    "Huangguoshu waterfall",
+    "Guizhou karst cave",
+    "Anshun China"
+  ],
+  "chengdu": [
+    "Chengdu city China",
+    "Chengdu giant panda",
+    "Chengdu tea house"
+  ],
+  "chongqing": [
+    "Chongqing night skyline",
+    "Hongyadong Chongqing",
+    "Chongqing city"
+  ],
+  "xian": [
+    "Xi'an city wall",
+    "Terracotta Army China",
+    "Xi'an bell tower"
+  ],
+  "beijing": [
+    "Forbidden City Beijing",
+    "Great Wall of China",
+    "Beijing hutong"
+  ],
+  "shanghai": [
+    "Shanghai skyline Pudong",
+    "The Bund Shanghai",
+    "Shanghai street"
+  ],
+  "hangzhou": [
+    "West Lake Hangzhou",
+    "Hangzhou tea garden",
+    "Hangzhou China"
+  ],
+  "xiamen": [
+    "Xiamen Gulangyu",
+    "Xiamen China coast",
+    "Fujian tulou"
+  ],
+  "guilin": [
+    "Guilin Li river",
+    "Yangshuo karst mountain",
+    "Guilin China"
+  ],
+  "lijiang": [
+    "Lijiang old town",
+    "Jade Dragon Snow Mountain",
+    "Lijiang Yunnan"
+  ],
+  "dali": [
+    "Dali Erhai lake",
+    "Dali Yunnan old town",
+    "Cangshan mountain"
+  ],
+  "kunming": [
+    "Kunming Stone Forest",
+    "Kunming Dianchi lake",
+    "Kunming China"
+  ],
+  "qingdao": [
+    "Qingdao coast China",
+    "Qingdao old town",
+    "Qingdao beer"
+  ],
+  "changsha": [
+    "Changsha city China",
+    "Changsha Orange Isle",
+    "Hunan China"
+  ],
+  "nanjing": [
+    "Nanjing city wall",
+    "Nanjing Confucius temple",
+    "Nanjing autumn"
+  ],
+  "suzhou": [
+    "Suzhou garden",
+    "Suzhou canal China",
+    "Suzhou water town"
+  ],
+  "harbin": [
+    "Harbin ice festival",
+    "Harbin Saint Sophia",
+    "Harbin winter China"
+  ],
+  "guangzhou": [
+    "Guangzhou Canton Tower",
+    "Guangzhou city China"
+  ],
+  "shenzhen": [
+    "Shenzhen skyline China",
+    "Shenzhen city"
+  ],
+  "wuhan": [
+    "Yellow Crane Tower Wuhan",
+    "Wuhan Yangtze river"
+  ],
+  "tianjin": [
+    "Tianjin city China",
+    "Tianjin skyline"
+  ],
+  "luoyang": [
+    "Longmen Grottoes Luoyang",
+    "Luoyang China temple"
+  ],
+  "sanya": [
+    "Sanya beach China",
+    "Hainan island sea"
+  ],
+  "lhasa": [
+    "Potala Palace Lhasa",
+    "Tibet Lhasa city"
+  ],
+  "urumqi": [
+    "Xinjiang landscape China",
+    "Urumqi city"
+  ],
+  "dunhuang": [
+    "Dunhuang desert China",
+    "Mogao caves Dunhuang"
+  ],
+  "fuzhou": [
+    "Fuzhou China city",
+    "Fujian Fuzhou"
+  ]
+}

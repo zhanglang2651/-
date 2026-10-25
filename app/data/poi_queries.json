@@ -1,0 +1,1409 @@
+{
+  "guiyang": {
+    "黔灵山公园": [
+      "qianling mountain park guiyang",
+      "guizhou mountain park",
+      "guiyang park"
+    ],
+    "甲秀楼": [
+      "jiaxiu pavilion guiyang",
+      "guiyang old town",
+      "guizhou pavilion"
+    ],
+    "青岩古镇": [
+      "qingyan ancient town guizhou",
+      "guizhou old town",
+      "guizhou village"
+    ],
+    "花溪公园": [
+      "huaxi park guiyang",
+      "guizhou park",
+      "china city park"
+    ],
+    "天河潭": [
+      "tianhe tan waterfall guiyang",
+      "guizhou waterfall",
+      "guizhou nature"
+    ],
+    "贵州省博物馆": [
+      "guizhou provincial museum",
+      "guizhou museum",
+      "museum china"
+    ],
+    "青云市集": [
+      "qingyun market guiyang",
+      "guizhou night market",
+      "chinese night market"
+    ],
+    "高坡云顶草原": [
+      "guizhou grassland",
+      "yunfeng plateau",
+      "china grassland"
+    ]
+  },
+  "zunyi": {
+    "遵义会议会址": [
+      "zunyi conference site",
+      "zunyi museum",
+      "china revolution museum"
+    ],
+    "赤水丹霞·佛光岩": [
+      "chishui danxia",
+      "guizhou red rock mountain",
+      "danxia landform"
+    ],
+    "茅台镇": [
+      "maotai town",
+      "maotai distillery",
+      "guizhou liquor town"
+    ],
+    "娄山关": [
+      "loushan pass",
+      "zunyi mountain pass",
+      "guizhou mountain pass"
+    ],
+    "四洞沟": [
+      "sidonggou waterfall",
+      "guizhou canyon waterfall",
+      "china waterfall valley"
+    ],
+    "海龙屯": [
+      "hailongtun fortress",
+      "guizhou ancient fortress",
+      "china hilltop fortress"
+    ],
+    "赤水竹海": [
+      "chishui bamboo sea",
+      "bamboo forest"
+    ],
+    "老城步行街": [
+      "lantern street"
+    ]
+  },
+  "qiandongnan": {
+    "西江千户苗寨": [
+      "xijiang miao village",
+      "miao ethnic village",
+      "guizhou village"
+    ],
+    "镇远古镇": [
+      "zhenyuan ancient town",
+      "guizhou old town river",
+      "ancient town china"
+    ],
+    "肇兴侗寨": [
+      "zhaoxing dong village",
+      "dong ethnic village",
+      "guizhou village"
+    ],
+    "郎德上寨": [
+      "miao ethnic village",
+      "village"
+    ],
+    "加榜梯田": [
+      "jialang terraced fields"
+    ],
+    "下司古镇": [
+      "xiass town"
+    ],
+    "云台山": [
+      "karst peaks",
+      "fog"
+    ],
+    "凯里民族博物馆": [
+      "miao ethnic museum",
+      "ethnological museum"
+    ],
+    "朗德上寨": [
+      "langde miao village",
+      "miao village",
+      "ethnic village china"
+    ]
+  },
+  "anshun": {
+    "黄果树瀑布": [
+      "huangguoshu waterfall",
+      "guizhou waterfall",
+      "china waterfall"
+    ],
+    "龙宫": [
+      "longgong cave guizhou",
+      "guizhou cave",
+      "karst cave china"
+    ],
+    "天龙屯堡": [
+      "tianlong tunpu fortress",
+      "guizhou fortress village",
+      "china fortress village"
+    ],
+    "格凸河": [
+      "limestone cave",
+      "rock climbing"
+    ],
+    "坝陵河大桥": [
+      "bamboo bridge"
+    ],
+    "虹山湖公园": [
+      "hongshan lake guizhou",
+      "guizhou lake park",
+      "china lake park"
+    ],
+    "关岭化石群": [
+      "fossil site guanling",
+      "fossil"
+    ],
+    "旧州古镇": [
+      "jiuzhou ancient town guizhou",
+      "guizhou old town",
+      "china ancient town"
+    ]
+  },
+  "chengdu": {
+    "大熊猫繁育研究基地": [
+      "giant panda breeding base chengdu",
+      "panda base",
+      "giant panda"
+    ],
+    "宽窄巷子": [
+      "chengdu alley",
+      "sichuan old street",
+      "china narrow alley"
+    ],
+    "锦里古街": [
+      "jinli street chengdu",
+      "chengdu ancient street",
+      "china lantern street"
+    ],
+    "都江堰": [
+      "dujiangyan irrigation",
+      "dujiangyan dam",
+      "china ancient dam"
+    ],
+    "青城山": [
+      "qingcheng mountain"
+    ],
+    "武侯祠": [
+      "wuhou shrine chengdu",
+      "three kingdoms shrine",
+      "china temple garden"
+    ],
+    "春熙路·太古里": [
+      "chunxi road taiji",
+      "shopping street"
+    ],
+    "人民公园鹤鸣茶社": [
+      "heming teahouse chengdu",
+      "sichuan tea house",
+      "chinese teahouse"
+    ],
+    "青羊宫": [
+      "qingyang palace chengdu",
+      "taoist temple sichuan",
+      "china taoist temple"
+    ]
+  },
+  "chongqing": {
+    "洪崖洞": [
+      "hongyadong chongqing",
+      "chongqing night",
+      "hongya cave"
+    ],
+    "解放碑": [
+      "jiefangbei chongqing",
+      "chongqing city center",
+      "chongqing"
+    ],
+    "李子坝轻轨穿楼": [
+      "liziba station chongqing",
+      "train through building chongqing",
+      "chongqing metro"
+    ],
+    "磁器口古镇": [
+      "ciqikou ancient town",
+      "chongqing old town",
+      "ancient street china"
+    ],
+    "长江索道": [
+      "chongqing yangtze river cableway",
+      "chongqing cable car",
+      "chongqing"
+    ],
+    "武隆天生三桥": [
+      "wulong tiankeng three bridges",
+      "wulong karst",
+      "wulong"
+    ],
+    "南山一棵树观景台": [
+      "nanshan tree chongqing",
+      "chongqing night view",
+      "chongqing skyline"
+    ],
+    "鹅岭二厂": [
+      "eling park chongqing",
+      "chongqing vintage factory",
+      "chongqing park"
+    ]
+  },
+  "xian": {
+    "秦始皇兵马俑": [
+      "terracotta army xian",
+      "terracotta warriors",
+      "china statue army"
+    ],
+    "大唐不夜城": [
+      "datang ever bright city",
+      "xian night",
+      "xian tang dynasty"
+    ],
+    "西安城墙": [
+      "xian city wall",
+      "xian ancient wall",
+      "china city wall"
+    ],
+    "陕西历史博物馆": [
+      "shaanxi history museum xian",
+      "xian museum",
+      "china history museum"
+    ],
+    "大雁塔·大慈恩寺": [
+      "giant wild goose pagoda xian",
+      "xian pagoda",
+      "china pagoda"
+    ],
+    "回民街": [
+      "huimin street xian",
+      "xian food street",
+      "chinese food street night"
+    ],
+    "华清宫": [
+      "huaqing palace xian",
+      "terracotta army museum",
+      "china palace"
+    ],
+    "钟鼓楼广场": [
+      "xian bell tower",
+      "xian drum tower",
+      "china bell tower"
+    ]
+  },
+  "beijing": {
+    "故宫博物院": [
+      "forbidden city beijing",
+      "palace museum beijing",
+      "china imperial palace"
+    ],
+    "八达岭长城": [
+      "badaling great wall",
+      "great wall of china",
+      "mutianyu great wall"
+    ],
+    "国家博物馆": [
+      "national museum"
+    ],
+    "天坛公园": [
+      "temple of heaven beijing",
+      "beijing temple",
+      "china round temple"
+    ],
+    "什刹海·后海": [
+      "waterfront"
+    ],
+    "南锣鼓巷": [
+      "nanlouguxiang"
+    ],
+    "北京环球影城": [
+      "universal beijing resort",
+      "beijing theme park",
+      "theme park castle"
+    ],
+    "天安门广场": [
+      "tiananmen square",
+      "beijing square",
+      "china landmark square"
+    ],
+    "颐和园": [
+      "summer palace beijing",
+      "beijing lake garden",
+      "china imperial garden"
+    ],
+    "圆明园": [
+      "yuanmingyu ruins",
+      "old summer palace beijing",
+      "china ruins garden"
+    ],
+    "北海公园": [
+      "beihai park beijing",
+      "beijing lake park",
+      "china imperial lake"
+    ]
+  },
+  "shanghai": {
+    "外滩": [
+      "the bund shanghai",
+      "shanghai skyline",
+      "shanghai pudong night"
+    ],
+    "上海迪士尼乐园": [
+      "shanghai disneyland",
+      "disney castle",
+      "theme park china"
+    ],
+    "豫园·城隍庙": [
+      "yuyuan garden shanghai",
+      "shanghai old city",
+      "china garden"
+    ],
+    "武康路·安福路": [
+      "wukang road shanghai",
+      "shanghai street trees",
+      "shanghai french concession"
+    ],
+    "上海博物馆": [
+      "shanghai museum",
+      "china bronze museum",
+      "china history museum"
+    ],
+    "陆家嘴三件套": [
+      "landmark",
+      "shanghai"
+    ],
+    "田子坊": [
+      "tianzifang shanghai",
+      "shanghai art lane",
+      "china miao kiln street"
+    ],
+    "朱家角古镇": [
+      "zhujiajiao ancient town",
+      "water town"
+    ],
+    "东方明珠": [
+      "oriental pearl tower",
+      "shanghai tv tower",
+      "shanghai landmark"
+    ],
+    "南京东路": [
+      "nanjing road shanghai",
+      "shanghai shopping street",
+      "china shopping street"
+    ]
+  },
+  "hangzhou": {
+    "西湖": [
+      "west lake hangzhou",
+      "hangzhou lake",
+      "china lake pagoda"
+    ],
+    "灵隐寺·飞来峰": [
+      "lingyin temple hangzhou",
+      "hangzhou buddhist temple",
+      "china temple forest"
+    ],
+    "西溪湿地": [
+      "xixi wetland hangzhou",
+      "hangzhou wetland",
+      "china marsh"
+    ],
+    "河坊街·南宋御街": [
+      "hefang street hangzhou",
+      "hangzhou old street",
+      "china old street"
+    ],
+    "龙井村茶园": [
+      "longjing village tea fields",
+      "tea plantation"
+    ],
+    "千岛湖": [
+      "qian dao lake"
+    ],
+    "京杭大运河·拱宸桥": [
+      "grand canal"
+    ],
+    "浙江省博物馆": [
+      "zhejiang museum"
+    ],
+    "雷峰塔": [
+      "leifeng pagoda hangzhou",
+      "hangzhou pagoda",
+      "china pagoda sunset"
+    ],
+    "京杭大运河杭州段": [
+      "grand canal hangzhou",
+      "hangzhou canal",
+      "china canal boats"
+    ],
+    "六和塔": [
+      "liuhe pagoda hangzhou",
+      "hangzhou pagoda river",
+      "china pagoda"
+    ],
+    "良渚文化遗址": [
+      "liangzhu ruins",
+      "hangzhou archaeological site",
+      "china ancient ruins"
+    ]
+  },
+  "xiamen": {
+    "鼓浪屿": [
+      "gulangyu island xiamen",
+      "xiamen island",
+      "china island street"
+    ],
+    "环岛路": [
+      "xiamen huandao road",
+      "xiamen coast",
+      "china seaside road"
+    ],
+    "厦门大学·芙蓉隧道": [
+      "xiamen university",
+      "xiamen campus",
+      "china university campus"
+    ],
+    "曾厝垵": [
+      "zengcuoan village",
+      "xiamen village",
+      "china village street"
+    ],
+    "南普陀寺": [
+      "nanputuo temple xiamen",
+      "xiamen temple",
+      "china temple"
+    ],
+    "沙坡尾": [
+      "shapowei xiamen",
+      "xiamen harbor",
+      "china harbor"
+    ],
+    "厦门植物园": [
+      "xiamen botanical garden",
+      "rainforest"
+    ],
+    "集美学村": [
+      "jimei university",
+      "campus"
+    ],
+    "胡里山炮台": [
+      "huli shan fort xiamen",
+      "xiamen fort",
+      "china coastal fort"
+    ],
+    "厦门海鲜大排档": [
+      "xiamen seafood",
+      "chinese seafood stall",
+      "seafood market china"
+    ]
+  },
+  "guilin": {
+    "漓江竹筏·兴坪": [
+      "li river guilin bamboo raft",
+      "guilin karst river",
+      "li river"
+    ],
+    "遇龙河漂流": [
+      "yulong river guilin",
+      "guilin river bamboo",
+      "karst river china"
+    ],
+    "阳朔西街": [
+      "yangshuo west street",
+      "guilin yangshuo town",
+      "china town street night"
+    ],
+    "象鼻山": [
+      "xiang shan",
+      "li river"
+    ],
+    "龙脊梯田": [
+      "longji rice terraces",
+      "guilin terraces",
+      "china rice terrace"
+    ],
+    "十里画廊": [
+      "shili gallery guilin",
+      "guilin karst mountain road",
+      "guilin scenery"
+    ],
+    "两江四湖": [
+      "liangjiang four lakes guilin",
+      "guilin night lake",
+      "guilin night view"
+    ],
+    "银子岩": [
+      "yinzi cave guilin",
+      "guilin cave",
+      "guilin karst cave"
+    ],
+    "印象刘三姐": [
+      "impression liu san jie",
+      "guilin li river performance",
+      "river performance china"
+    ]
+  },
+  "lijiang": {
+    "丽江古城": [
+      "lijiang old town",
+      "yunnan ancient town",
+      "china old town night"
+    ],
+    "玉龙雪山": [
+      "jade dragon snow mountain",
+      "yunnan snow mountain",
+      "china snow peak"
+    ],
+    "蓝月谷": [
+      "blue moon valley lijiang",
+      "yunnan valley lake",
+      "china blue lake"
+    ],
+    "束河古镇": [
+      "shuhe old town lijiang",
+      "lijiang village",
+      "china ancient village"
+    ],
+    "白沙古镇": [
+      "baisha village lijiang",
+      "naxi village",
+      "china village naxi"
+    ],
+    "泸沽湖": [
+      "lugu lake"
+    ],
+    "拉市海": [
+      "lashi lake lijiang",
+      "yunnan wetland lake",
+      "china wetland birds"
+    ],
+    "木府": [
+      "wooden palace",
+      "palace"
+    ],
+    "虎跳峡": [
+      "tiger leaping gorge",
+      "yunnan canyon river",
+      "china gorge"
+    ],
+    "黑龙潭公园": [
+      "black dragon pool lijiang",
+      "yunnan temple pool",
+      "china temple lake"
+    ]
+  },
+  "dali": {
+    "洱海环湖": [
+      "erhai lake dali",
+      "dali lake",
+      "china lake mountains"
+    ],
+    "大理古城": [
+      "dali ancient town",
+      "yunnan old town",
+      "china ancient town"
+    ],
+    "崇圣寺三塔": [
+      "three pagodas dali",
+      "dali pagoda",
+      "china three pagodas"
+    ],
+    "喜洲古镇": [
+      "xizhou town dali",
+      "bai village dali",
+      "yunnan village"
+    ],
+    "双廊古镇": [
+      "shuanglang dali",
+      "erhai lakeside village",
+      "china lakeside village"
+    ],
+    "苍山": [
+      "cangshan mountain dali",
+      "yunnan mountain snow",
+      "china mountain"
+    ],
+    "沙溪古镇": [
+      "shaxi ancient town"
+    ],
+    "理想邦": [
+      "elobar",
+      "island"
+    ],
+    "南诏风情岛": [
+      "nanzhao island dali",
+      "erhai island",
+      "china lake island"
+    ],
+    "才村码头": [
+      "caicun pier dali",
+      "erhai pier",
+      "china lake pier"
+    ]
+  },
+  "kunming": {
+    "石林风景区": [
+      "stone forest kunming",
+      "yunnan karst stone forest",
+      "china karst"
+    ],
+    "滇池·海埂大坝": [
+      "dianchi lake kunming",
+      "kunming lake",
+      "china lake gulls"
+    ],
+    "云南民族村": [
+      "yunnan nationalities village",
+      "china ethnic village",
+      "china minority village"
+    ],
+    "西山龙门": [
+      "longmen grottoes xishan",
+      "cave temple"
+    ],
+    "翠湖公园": [
+      "cuihu park kunming",
+      "kunming park",
+      "china city park lake"
+    ],
+    "官渡古镇": [
+      "guandu ancient town",
+      "yunnan old town",
+      "china ancient town"
+    ],
+    "斗南花市": [
+      "dounan flower market",
+      "kunming flower market",
+      "china flower market"
+    ],
+    "云南省博物馆": [
+      "yunnan museum"
+    ],
+    "东川红土地": [
+      "dongchuan red land",
+      "yunnan red soil",
+      "red earth landscape china"
+    ],
+    "昙华寺": [
+      "tanhua temple kunming",
+      "kunming temple",
+      "china temple garden"
+    ]
+  },
+  "qingdao": {
+    "栈桥": [
+      "zhanqiao pier qingdao",
+      "qingdao pier",
+      "china pier lighthouse"
+    ],
+    "八大关": [
+      "badaguan qingdao",
+      "qingdao villa district",
+      "china tree street villas"
+    ],
+    "崂山": [
+      "laoshan qingdao",
+      "qingdao mountain sea",
+      "china coastal mountain"
+    ],
+    "青岛啤酒博物馆": [
+      "tsingtao beer museum",
+      "qingdao beer",
+      "china brewery"
+    ],
+    "金沙滩": [
+      "golden beach qingdao",
+      "qingdao beach",
+      "china sand beach"
+    ],
+    "小鱼山公园": [
+      "xi yu shan park",
+      "hill"
+    ],
+    "劈柴院": [
+      "pichaiyuan qingdao",
+      "qingdao old food street",
+      "china food alley"
+    ],
+    "五四广场·奥帆中心": [
+      "may fourth square",
+      "sailing center"
+    ],
+    "小麦岛": [
+      "xiaomai island qingdao",
+      "qingdao island park",
+      "china sea island"
+    ],
+    "信号山公园": [
+      "signal hill qingdao",
+      "qingdao hill view",
+      "china hill park"
+    ]
+  },
+  "changsha": {
+    "橘子洲": [
+      "orange isle changsha",
+      "changsha river island",
+      "china river island monument"
+    ],
+    "岳麓山·爱晚亭": [
+      "yuelu mountain changsha",
+      "changsha mountain",
+      "china mountain academy"
+    ],
+    "湖南博物院": [
+      "hunan museum"
+    ],
+    "太平老街": [
+      "taiping street changsha",
+      "changsha old street",
+      "china old street night"
+    ],
+    "岳麓书院": [
+      "yuelu academy changsha",
+      "china ancient academy",
+      "china garden school"
+    ],
+    "谢子龙影像艺术馆": [
+      "changsha art museum",
+      "china art museum",
+      "modern museum china"
+    ],
+    "文和友老长沙": [
+      "wenheyou changsha",
+      "changsha food street",
+      "china retro food street"
+    ],
+    "长沙世界之窗": [
+      "changsha window of world",
+      "china amusement park",
+      "theme park china"
+    ],
+    "湖南省博物馆": [
+      "hunan museum changsha",
+      "china museum",
+      "china bronze museum"
+    ]
+  },
+  "nanjing": {
+    "中山陵": [
+      "sun yat-sen mausoleum nanjing",
+      "nanjing mausoleum",
+      "china memorial hall"
+    ],
+    "夫子庙·秦淮河": [
+      "fuzimiao nanjing",
+      "nanjing confucius temple",
+      "china night canal"
+    ],
+    "南京博物院": [
+      "nanjing museum",
+      "china history museum",
+      "china museum building"
+    ],
+    "总统府": [
+      "nanjing presidential palace",
+      "china republican palace",
+      "china historic house"
+    ],
+    "明孝陵": [
+      "ming tombs nanjing",
+      "nanjing imperial tomb",
+      "china tree tomb"
+    ],
+    "老门东": [
+      "laomendong nanjing",
+      "nanjing old street",
+      "china old district"
+    ],
+    "玄武湖": [
+      "xuanwu lake nanjing",
+      "nanjing lake",
+      "china city lake"
+    ],
+    "侵华日军南京大屠杀遇难同胞纪念馆": [
+      "nj massacree memorial",
+      "memorial"
+    ],
+    "先锋书店": [
+      "pioneer bookshop nanjing",
+      "china bookstore",
+      "china bookshop interior"
+    ]
+  },
+  "suzhou": {
+    "拙政园": [
+      "humble administrator garden suzhou",
+      "suzhou garden",
+      "china classical garden"
+    ],
+    "平江路": [
+      "pingjiang road suzhou",
+      "suzhou canal street",
+      "china canal town"
+    ],
+    "苏州博物馆": [
+      "suzhou museum",
+      "architectural wonder"
+    ],
+    "山塘街": [
+      "shantang street",
+      "canal"
+    ],
+    "虎丘": [
+      "huqiu suzhou",
+      "suzhou hill pagoda",
+      "china pagoda hill"
+    ],
+    "周庄古镇": [
+      "zhujiajiao"
+    ],
+    "留园": [
+      "lingering garden suzhou",
+      "suzhou classical garden",
+      "china rockery garden"
+    ],
+    "金鸡湖·东方之门": [
+      "jinji lake suzhou",
+      "suzhou modern skyline",
+      "china lake city night"
+    ],
+    "寒山寺": [
+      "hanshan temple suzhou",
+      "suzhou temple bell",
+      "china buddhist temple"
+    ],
+    "同里古镇": [
+      "tongli ancient town",
+      "jiangnan water town",
+      "china canal town"
+    ],
+    "耦园": [
+      "ouyuan garden suzhou",
+      "suzhou couple garden",
+      "china garden corridor"
+    ]
+  },
+  "harbin": {
+    "冰雪大世界": [
+      "harbin ice snow festival",
+      "china ice sculpture festival",
+      "ice sculpture night"
+    ],
+    "中央大街": [
+      "central street harbin",
+      "harbin old street",
+      "china baroque street"
+    ],
+    "圣索菲亚教堂": [
+      "sofia cathedral harbin",
+      "harbin church",
+      "china orthodox church"
+    ],
+    "太阳岛": [
+      "sun island park harbin",
+      "harbin park winter",
+      "china snow park"
+    ],
+    "松花江·防洪纪念塔": [
+      "songhua river harbin",
+      "harbin frozen river",
+      "china frozen river"
+    ],
+    "老道外中华巴洛克": [
+      "harbin baroque district",
+      "china baroque architecture",
+      "old district china"
+    ],
+    "东北虎林园": [
+      "harbin tiger park",
+      "siberian tiger park",
+      "china tiger park"
+    ],
+    "黑龙江省博物馆": [
+      "heilongjiang museum"
+    ],
+    "亚布力滑雪": [
+      "yabuli ski resort",
+      "china ski resort",
+      "ski slope china"
+    ]
+  },
+  "guangzhou": {
+    "广州塔": [
+      "canton tower guangzhou",
+      "guangzhou tower",
+      "china tower night"
+    ],
+    "沙面岛": [
+      "shamian island guangzhou",
+      "guangzhou colonial island",
+      "china island trees"
+    ],
+    "陈家祠": [
+      "chenci temple guangzhou",
+      "guangzhou ancestral hall",
+      "china folk art museum"
+    ],
+    "珠江夜游": [
+      "pearl river night cruise guangzhou",
+      "guangzhou night cruise",
+      "china river night cruise"
+    ],
+    "广州长隆": [
+      "zoo",
+      "amusement park"
+    ],
+    "永庆坊": [
+      "yongqingfang guangzhou",
+      "guangzhou old neighborhood",
+      "china xiguan house"
+    ],
+    "越秀公园": [
+      "yuexiu park",
+      "historical site"
+    ],
+    "白云山": [
+      "baiyun mountain guangzhou",
+      "guangzhou mountain",
+      "china mountain park"
+    ],
+    "广东省博物馆": [
+      "guangdong museum guangzhou",
+      "china museum",
+      "china art museum"
+    ],
+    "长隆野生动物世界": [
+      "chimelong safari guangzhou",
+      "china safari park",
+      "china wildlife park"
+    ]
+  },
+  "shenzhen": {
+    "深圳湾公园": [
+      "shenzhen bay park",
+      "shenzhen bay",
+      "china bay park"
+    ],
+    "世界之窗": [
+      "window of the world shenzhen",
+      "china theme park",
+      "china miniature landmarks"
+    ],
+    "华侨城创意园": [
+      "huacai city creative park",
+      "art area"
+    ],
+    "大梅沙海滨公园": [
+      "dameisha beach shenzhen",
+      "shenzhen beach",
+      "china sandy beach"
+    ],
+    "莲花山公园": [
+      "lotus hill park shenzhen",
+      "shenzhen park",
+      "china city park"
+    ],
+    "东部华侨城": [
+      "daxiaqu valley",
+      "valley"
+    ],
+    "南头古城": [
+      "nantou ancient town shenzhen",
+      "shenzhen old town",
+      "china old village urban"
+    ],
+    "海上世界": [
+      "haiwai world",
+      "nightview"
+    ],
+    "华侨城创意文化园": [
+      "oct loft shenzhen",
+      "china creative park",
+      "china art district"
+    ],
+    "深圳博物馆": [
+      "shenzhen museum",
+      "china museum",
+      "china civic museum"
+    ],
+    "锦绣中华": [
+      "china folk culture village shenzhen",
+      "china miniature park",
+      "china theme park"
+    ]
+  },
+  "wuhan": {
+    "黄鹤楼": [
+      "yellow crane tower wuhan",
+      "wuhan tower",
+      "china pagoda river"
+    ],
+    "东湖绿道": [
+      "east lake wuhan",
+      "wuhan lake",
+      "china lake cherry"
+    ],
+    "武汉大学·樱花": [
+      "wuhan university",
+      "china university cherry blossom",
+      "china campus cherry"
+    ],
+    "户部巷": [
+      "hubu lane wuhan",
+      "wuhan food street",
+      "china snack street"
+    ],
+    "江汉路步行街": [
+      "jianghan road wuhan",
+      "wuhan shopping street",
+      "china pedestrian street"
+    ],
+    "湖北省博物馆": [
+      "hubei provincial museum",
+      "china museum",
+      "china museum bronze"
+    ],
+    "长江大桥": [
+      "wuhan yangtze bridge",
+      "china river bridge",
+      "wuhan bridge night"
+    ],
+    "昙华林": [
+      "tanghuahlin"
+    ],
+    "知音号": [
+      "zhiyin ship wuhan",
+      "wuhan cruise ship",
+      "china river cruise"
+    ]
+  },
+  "tianjin": {
+    "五大道": [
+      "five great avenues tianjin",
+      "tianjin villas",
+      "china european street"
+    ],
+    "天津之眼": [
+      "tianjin eye ferris wheel",
+      "tianjin ferris wheel",
+      "china ferris wheel night"
+    ],
+    "古文化街": [
+      "gu wenhua street tianjin",
+      "tianjin old street",
+      "china temple street"
+    ],
+    "瓷房子": [
+      "porcelain house"
+    ],
+    "意式风情区": [
+      "tianjin italian style town",
+      "tianjin old town",
+      "china european style street"
+    ],
+    "海河游船": [
+      "tianjin hai river cruise",
+      "tianjin river night",
+      "china river night cruise"
+    ],
+    "国家海洋博物馆": [
+      "national ocean museum"
+    ],
+    "天津相声茶馆": [
+      "chinese crosstalk performance",
+      "china teahouse performance",
+      "china folk show"
+    ],
+    "天津滨海图书馆": [
+      "tianjin library",
+      "china modern library",
+      "china staircase library"
+    ],
+    "盘山": [
+      "panshan tianjin",
+      "tianjin mountain temple",
+      "china mountain gate"
+    ]
+  },
+  "luoyang": {
+    "龙门石窟": [
+      "longmen grottoes",
+      "china buddhist grotto",
+      "china cliff buddha"
+    ],
+    "洛阳牡丹园": [
+      "luoyang peony",
+      "peony flower china",
+      "china peony garden"
+    ],
+    "老君山": [
+      "laojun mountain",
+      "china taoist golden peak",
+      "china cloud mountain"
+    ],
+    "丽景门": [
+      "luoyang lijin gate",
+      "china ancient city gate",
+      "luoyang old city"
+    ],
+    "洛阳博物馆": [
+      "luoyang museum",
+      "china history museum",
+      "china museum"
+    ],
+    "应天门": [
+      "yingtian gate luoyang",
+      "luoyang city gate",
+      "china ancient gate night"
+    ],
+    "洛邑古城": [
+      "luoyi ancient town",
+      "china night old street",
+      "china han culture street"
+    ],
+    "白马寺": [
+      "baimasi temple luoyang",
+      "luoyang buddhist temple",
+      "china white horse temple"
+    ]
+  },
+  "sanya": {
+    "亚龙湾": [
+      "yalong bay sanya",
+      "hainan resort beach",
+      "china tropical beach resort"
+    ],
+    "蜈支洲岛": [
+      "wuzhizhou island",
+      "hainan island",
+      "china island diving"
+    ],
+    "天涯海角": [
+      "tianya haijiao",
+      "sanya landmark coast",
+      "china coast rock"
+    ],
+    "南山文化旅游区": [
+      "nanshan temple sanya",
+      "hainan buddhist temple",
+      "china temple sea"
+    ],
+    "大小洞天": [
+      "sanya nanshan dongtian",
+      "hainan scenic grotto",
+      "china coastal grotto"
+    ],
+    "椰梦长廊": [
+      "coconut dream promenade",
+      "beach"
+    ],
+    "鹿回头": [
+      "luhuitou park sanya",
+      "sanya hill park",
+      "china coastal park"
+    ],
+    "第一市场海鲜": [
+      "sanya first market",
+      "china seafood market",
+      "china fresh seafood"
+    ],
+    "大东海": [
+      "dadonghai beach sanya",
+      "sanya beach",
+      "china tropical bay"
+    ]
+  },
+  "lhasa": {
+    "布达拉宫": [
+      "potala palace",
+      "palace"
+    ],
+    "大昭寺": [
+      "potala palace",
+      "buddhist temple"
+    ],
+    "八廓街": [
+      "barkhor street"
+    ],
+    "色拉寺辩经": [
+      "tselapu monastery",
+      "debate"
+    ],
+    "罗布林卡": [
+      "palace"
+    ],
+    "纳木错": [
+      "namtso lake"
+    ],
+    "羊卓雍措": [
+      "yangzhuoyong coo lake"
+    ],
+    "甜茶馆": [
+      "chinese teahouse"
+    ]
+  },
+  "urumqi": {
+    "天山天池": [
+      "tianchi lake tian shan",
+      "xinjiang lake snow mountain",
+      "china turquoise lake"
+    ],
+    "红山公园": [
+      "hongshan park urumqi",
+      "urumqi city hill",
+      "china city park red"
+    ],
+    "新疆博物馆": [
+      "xinjiang museum urumqi",
+      "china museum",
+      "china ethnic museum"
+    ],
+    "南山牧场": [
+      "nanshan pasture urumqi",
+      "xinjiang grassland",
+      "china mountain pasture"
+    ],
+    "水磨沟公园": [
+      "shuimogou park urumqi",
+      "urumqi park river",
+      "china city park stream"
+    ],
+    "红光山": [
+      "hongguangshan urumqi",
+      "urumqi buddhist hill",
+      "china uyghur architecture"
+    ],
+    "二道桥市场": [
+      "erdaoqiao market urumqi",
+      "xinjiang market",
+      "china dried fruit market"
+    ],
+    "国际大巴扎": [
+      "urumqi grand bazaar",
+      "xinjiang bazaar",
+      "china market architecture"
+    ]
+  },
+  "dunhuang": {
+    "莫高窟": [
+      "mogao caves",
+      "dunhuang grottoes",
+      "china buddhist cave mural"
+    ],
+    "鸣沙山·月牙泉": [
+      "mingsha mountain crescent lake",
+      "dunhuang sand dune",
+      "china desert spring"
+    ],
+    "玉门关": [
+      "yumen pass",
+      "china silk road fort",
+      "china desert ruin"
+    ],
+    "雅丹国家地质公园": [
+      "dunhuang yardang",
+      "china yardang landform",
+      "china desert rock formation"
+    ],
+    "敦煌夜市": [
+      "dunhuang night market",
+      "china night market food",
+      "china street food night"
+    ],
+    "西千佛洞": [
+      "xian qianfo cave",
+      "dunhuang grotto",
+      "china buddhist cave"
+    ],
+    "敦煌博物馆": [
+      "dunhuang museum",
+      "china museum",
+      "china silk road museum"
+    ],
+    "敦煌古城影视城": [
+      "dunhuang ancient city",
+      "china film set old town",
+      "china old town set"
+    ]
+  },
+  "fuzhou": {
+    "三坊七巷": [
+      "sanfang qixiang fuzhou",
+      "fuzhou old street",
+      "china ancient lane"
+    ],
+    "平潭岛": [
+      "pingtan island fujian",
+      "fujian blue island",
+      "china island coast"
+    ],
+    "福州西湖": [
+      "fuzhou west lake",
+      "fuzhou lake park",
+      "china lake park"
+    ],
+    "上下杭": [
+      "shangxiahang fuzhou",
+      "fuzhou historic district",
+      "china merchant house"
+    ],
+    "烟台山": [
+      "yantai hill fuzhou",
+      "fuzhou hill street",
+      "china hill district"
+    ],
+    "福州温泉": [
+      "fuzhou hot spring",
+      "china hot spring resort",
+      "china spa pool"
+    ],
+    "国家森林公园": [
+      "fuzhou forest park",
+      "china forest park",
+      "china subtropical forest"
+    ],
+    "鼓山": [
+      "gushan fuzhou",
+      "fuzhou mountain temple",
+      "china mountain temple"
+    ]
+  },
+  "lasa": {
+    "布达拉宫": [
+      "potala palace",
+      "lhasa tibet",
+      "china tibet palace"
+    ],
+    "大昭寺": [
+      "jokhang temple lhasa",
+      "lhasa monastery",
+      "china tibet monastery"
+    ],
+    "八廓街": [
+      "barkhor street lhasa",
+      "lhasa old street",
+      "china tibet street"
+    ],
+    "纳木错": [
+      "namtso lake",
+      "china tibet lake",
+      "china blue lake plateau"
+    ],
+    "羊卓雍措": [
+      "yamdrok lake",
+      "tibet turquoise lake",
+      "china plateau lake"
+    ],
+    "色拉寺": [
+      "sera monastery",
+      "lhasa monastery debate",
+      "china tibet monastery"
+    ],
+    "罗布林卡": [
+      "norbulinka palace",
+      "lhasa palace garden",
+      "china palace garden"
+    ],
+    "甜茶馆": [
+      "tibetan teahouse",
+      "lhasa tea house",
+      "china teahouse interior"
+    ]
+  }
+}

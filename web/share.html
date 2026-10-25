@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>行程分享 · 云游</title>
+<link rel="stylesheet" href="/static/css/style.css">
+<style>
+  body{padding:0}
+  .share-wrap{max-width:880px;margin:0 auto;padding:32px 20px 80px}
+  .share-head{display:flex;align-items:center;justify-content:space-between;gap:16px;
+    padding:16px 0 22px;border-bottom:1px solid var(--line);margin-bottom:26px}
+  .share-brand{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:750;cursor:pointer}
+  .share-brand .logo{width:34px;height:34px;font-size:15px;border-radius:10px}
+  .share-meta{font-size:11.5px;color:var(--dim);text-align:right;line-height:1.7}
+  .share-cta{margin-top:34px;padding:26px;border-radius:18px;text-align:center;
+    background:linear-gradient(120deg,rgba(94,234,212,.09),rgba(56,189,248,.05));
+    border:1px solid rgba(94,234,212,.2)}
+  .share-cta h3{font-size:16px;margin-bottom:8px}
+  .share-cta p{font-size:12.5px;color:var(--muted);margin-bottom:16px}
+  .share-loading{padding:80px 0;text-align:center;color:var(--dim);font-size:13px}
+  @media(max-width:640px){.share-head{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="aurora"><span></span><span></span><span></span></div>
+<div class="share-wrap" id="shareWrap">
+  <div class="share-head">
+    <div class="share-brand" onclick="location.href='/'">
+      <div class="logo">◈</div><span>云游 · 文旅智能助手</span>
+    </div>
+    <div class="share-meta" id="shareMeta"></div>
+  </div>
+  <div class="share-loading" id="shareLoading">正在载入行程…</div>
+  <div id="shareBody"></div>
+</div>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ICON = { sun:'☀️', cloud:'⛅', rain:'🌧️', snow:'❄️', storm:'⛈️', fog:'🌫️' };
+const token = location.pathname.split('/').filter(Boolean).pop();
+
+function donutArcs(breakdown, total, colors){
+  if(!total) return '';
+  const C = 2*Math.PI*46; let offset = 0;
+  return Object.values(breakdown).map((v,i)=>{
+    const len = (v/total)*C;
+    const seg = `<circle cx="56" cy="56" r="46" fill="none" stroke="${colors[i%colors.length]}"
+      stroke-width="11" stroke-dasharray="${len} ${C-len}" stroke-dashoffset="${-offset}" opacity=".92"/>`;
+    offset += len; return seg;
+  }).join('');
+}
+
+function renderDay(plan, idx){
+  const day = plan.itinerary[idx];
+  const w = day.weather || {};
+  const timeline = [
+    ...(day.items||[]).map(i=>({...i, kind:'spot'})),
+    ...(day.meals||[]).map(m=>({...m, kind:'meal'})),
+  ].sort((a,b)=>String(a.time||'').localeCompare(String(b.time||'')));
+
+  return `<div class="day-head">
+      <h4>Day ${day.day} · ${esc(day.title||'')}</h4>
+      <div class="dweather">
+        <span>${ICON[w.icon]||'⛅'} <b>${esc(w.text||'')}</b></span>
+        <span>${w.t_min ?? '-'}~${w.t_max ?? '-'}℃</span>
+        <span>降水 <b>${w.rain_prob ?? '-'}%</b></span>
+        <span>当日花费 <b>¥${Math.round(day.day_cost||0)}</b></span>
+      </div>
+    </div>
+    <div class="tl">${timeline.map(it => it.kind==='meal' ? `
+      <div class="tl-item meal">
+        <div class="ti-top"><span class="ti-time">${esc(it.time||'')}</span>
+          <span class="ti-name">${esc(it.name||'用餐')}</span><span class="ti-type">餐饮</span></div>
+        <div class="ti-desc">${esc(it.place||'')}</div>
+        <div class="ti-meta"><span>人均 <i>¥${Math.round(it.cost||0)}</i></span></div>
+      </div>` : `
+      <div class="tl-item">
+        <div class="ti-top"><span class="ti-time">${esc(it.time||'')}</span>
+          <span class="ti-name">${esc(it.name||'')}</span><span class="ti-type">${esc(it.type||'景点')}</span></div>
+        <div class="ti-desc">${esc(it.desc||'')}</div>
+        <div class="ti-meta"><span>游玩 <i>${it.hours||2}h</i></span>
+          <span>门票 <i>¥${it.cost||0}</i></span><span>交通 <i>${esc(it.transport||'步行')}</i></span></div>
+        ${it.tip ? `<div class="ti-tip">${esc(it.tip)}</div>` : ''}
+      </div>`).join('')}</div>
+    ${day.stay ? `<div class="pack-tags"><span>🏨 建议住宿：${esc(day.stay)}</span></div>` : ''}`;
+}
+
+async function main(){
+  try{
+    const res = await fetch(`/api/share/${token}`);
+    if(!res.ok) throw new Error((await res.json()).detail || '链接无效');
+    const data = await res.json();
+    const result = data.payload || {};
+    const plan = result.plan || {};
+    const colors = ['#5eead4','#38bdf8','#a78bfa','#fbbf24','#f472b6'];
+    const budget = plan.budget || {};
+    const total = Number(budget.total || 0);
+
+    document.title = `${plan.city || data.city} ${plan.days || data.days} 天行程 · 云游`;
+    $('#shareMeta').innerHTML = `由 <b style="color:var(--muted)">${esc(data.author)}</b> 分享<br>${esc((data.created_at||'').replace('T',' ').slice(0,16))}`;
+    $('#shareLoading').remove();
+
+    $('#shareBody').innerHTML = `
+      <div class="plan-hero" style="--ac:${esc(result.city?.accent || '#5eead4')}">
+        <div class="ph-top">
+          <div class="ph-city">${esc(plan.city || data.city)}</div>
+          <div class="ph-pill">${esc(plan.days || data.days)} 天</div>
+          <div class="ph-pill">${esc(result.brief?.people || 2)} 人</div>
+          <div class="ph-pill">${esc(result.brief?.budget_level || '中等')}</div>
+        </div>
+        <div class="ph-theme">${esc(plan.theme || '')}</div>
+        <div class="ph-sum">${esc(plan.summary || '')}</div>
+        <div class="ph-high">${(plan.highlights||[]).map(h=>`<span>${esc(h)}</span>`).join('')}</div>
+      </div>
+      <div class="daytabs" id="dayTabs">
+        ${(plan.itinerary||[]).map((d,i)=>`<button class="dtab ${i===0?'on':''}" data-i="${i}">
+          <b>Day ${d.day||i+1}</b><small>${esc((d.date||'').slice(5))} · ${esc(d.title||'')}</small></button>`).join('')}
+      </div>
+      <div class="day-panel" id="dayPanel">${renderDay(plan, 0)}</div>
+      <div class="plan-foot">
+        <div class="card-out">
+          <h5>预算拆解</h5>
+          <div class="budget-flex">
+            <div class="donut">
+              <svg width="112" height="112" viewBox="0 0 112 112">
+                <circle cx="56" cy="56" r="46" fill="none" stroke="rgba(255,255,255,.07)" stroke-width="11"/>
+                ${donutArcs(budget.breakdown||{}, total, colors)}
+              </svg>
+              <div class="donut-center"><b>¥${Math.round(total)}</b><span>预估总花费</span></div>
+            </div>
+            <div class="bd-list">${Object.entries(budget.breakdown||{}).map(([k,v],i)=>`
+              <div class="bd-row"><i style="background:${colors[i%colors.length]}"></i>
+                <span>${esc(k)}</span><b>¥${Math.round(v)}</b></div>`).join('')}</div>
+          </div>
+        </div>
+        <div class="card-out">
+          <h5>行前提示</h5>
+          <ul class="tip-list">${(plan.tips||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul>
+        </div>
+      </div>
+      <div class="share-cta">
+        <h3>想要一份为你定制的行程？</h3>
+        <p>说出目的地和偏好，AI 会查天气、挑景点、算预算，40 秒给你排好</p>
+        <button class="primary" onclick="location.href='/'">去云游试试 →</button>
+      </div>`;
+
+    document.querySelectorAll('#dayTabs .dtab').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        document.querySelectorAll('#dayTabs .dtab').forEach(x=>x.classList.toggle('on', x===btn));
+        document.querySelector('#dayPanel').innerHTML = renderDay(plan, Number(btn.dataset.i));
+      });
+    });
+  }catch(e){
+    $('#shareLoading').innerHTML = `<div style="color:#fca5a5">${esc(e.message)}</div>
+      <div style="margin-top:14px"><button class="ghost" onclick="location.href='/'">回到首页</button></div>`;
+  }
+}
+main();
+</script>
+</body>
+</html>
